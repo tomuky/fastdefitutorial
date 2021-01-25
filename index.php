@@ -287,7 +287,7 @@
   </body>
   
   <footer>
-  	created by <a href='https://twitter.com/tomuky' target='_blank'>@tomuky</a>
+  	<a href='https://github.com/tomuky/fastdefitutorial' target='_blank'>github</a> | <a href='https://twitter.com/fastdefi' target='_blank'>twitter</a> | created by <a href='https://twitter.com/tomuky' target='_blank'>@tomuky</a>
   </footer>
   
 </html>
