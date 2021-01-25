@@ -37,8 +37,6 @@
   </head>
 
   <body>
-    <script src="js/utility.0.js"></script>
-    <script src="js/script.0.js"></script>
 
     <div class='main'>
       
