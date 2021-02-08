@@ -45,6 +45,20 @@ div.main{
   -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
 }
+div.legend-area{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+div.legend{
+  padding: 10px;
+  border: 1px solid rgb(150,150,150);
+  border-radius: 3px;
+}
+div.legend span{
+  margin: 0px 4px;
+}
 
 /* desktop */
 @media screen and (min-width:900px){
@@ -97,6 +111,8 @@ ul li, ol li{ list-style: none; }
 ul li:before { content: '⚡'; margin-left: -26px; margin-right: 6px; } 
 ul li.bolt:before { content: '⚡'; margin-left: -26px; margin-right: 6px; } 
 ul li.hashtag:before { content: '#️⃣'; margin-left: -26pm; margin-right: 6px; }
+ul li.hashtaghashtag:before { content: '#️⃣#️⃣'; margin-left: -26pm; margin-right: 6px; }
+ul li.hashtaghashtaghashtag:before { content: '#️⃣#️⃣#️⃣'; margin-left: -26pm; margin-right: 6px; }
 ul li.warning:before { content: '⚠️'; margin-left: -26pm; margin-right: 6px; }
 ul li.i:before { content: 'ℹ️'; margin-left: -26pm; margin-right: 6px; }
 ol li:nth-child(1):before { content: '1️⃣'; margin-left: -26px; margin-right: 6px; } 
@@ -112,13 +128,13 @@ ol li:nth-child(10):before { content: '🔟'; margin-left: -26px; margin-right: 
 ul li.arrow:before { content: '👉'; margin-left: -26px; margin-right: 6px; } 
 ul li.memo:before { content: '📝'; margin-left: -26px; margin-right: 6px; } 
 
-ul.larger{
+ul.larger-text{
   font-size: 20px;
 }
-ul.larger a{
+ul.larger-text a{
   text-decoration: none;
 }
-ul.larger a:hover{
+ul.larger-text a:hover{
   text-decoration: underline;
 }
 
@@ -128,7 +144,7 @@ div.divider{
 }
 
 @media screen and (min-width:0) and (max-width:450px){
-  ul.larger{
+  ul.larger-text{
     font-size: 16px;
   }
   div.divider{
@@ -139,6 +155,7 @@ div.divider{
 div.center{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 div.center ul{
   text-align: left;
