@@ -110,9 +110,9 @@ ol li,ul li{
 ul li, ol li{ list-style: none; }
 ul li:before { content: '⚡'; margin-left: -26px; margin-right: 6px; } 
 ul li.bolt:before { content: '⚡'; margin-left: -26px; margin-right: 6px; } 
-ul li.hashtag:before { content: '#️⃣'; margin-left: -26pm; margin-right: 6px; }
-ul li.hashtaghashtag:before { content: '#️⃣#️⃣'; margin-left: -26pm; margin-right: 6px; }
-ul li.hashtaghashtaghashtag:before { content: '#️⃣#️⃣#️⃣'; margin-left: -26pm; margin-right: 6px; }
+ul li.hashtag:before { content: '#️⃣'; margin-left: -26px; margin-right: 6px; }
+ul li.hashtaghashtag:before { content: '#️⃣#️⃣'; margin-left: -48px; margin-right: 6px; }
+ul li.hashtaghashtaghashtag:before { content: '#️⃣#️⃣#️⃣'; margin-left: -70px; margin-right: 6px; }
 ul li.warning:before { content: '⚠️'; margin-left: -26pm; margin-right: 6px; }
 ul li.i:before { content: 'ℹ️'; margin-left: -26pm; margin-right: 6px; }
 ol li:nth-child(1):before { content: '1️⃣'; margin-left: -26px; margin-right: 6px; } 
