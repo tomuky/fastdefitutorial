@@ -18,7 +18,7 @@
     <meta name="description" content="Fast DeFi Tutorial">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
     <meta name="author" content="Tom">
-    <link rel="stylesheet" href="css/style.5.css?v=1">
+    <link rel="stylesheet" href="css/style.6.css?v=1">
     <script src="https://code.jquery.com/jquery-1.8.3.js"></script>
     <script src="https://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -53,7 +53,14 @@
         <p class='center'>List of steps straight to DeFi</p>
 				
         <div class='center'>
-          <ul class='larger'>
+				
+					<div class='legend-area'>
+						<div class='legend'>
+							<span>#️⃣= Beginner</span><span>#️⃣#️⃣= Intermediate</span>
+						</div>
+					</div>
+
+          <ul class='larger-text'>
             <li class='hashtag'><a href='#what-is-defi'>What is DeFi 🤔</a></li>
             <li class='hashtag'><a href='#must-knows'>The must-knows 💡</a></li>
             <li class='hashtag'><a href='#get-a-wallet'>First: Get a wallet 💰</a></li>
@@ -68,7 +75,9 @@
             <li class='hashtag'><a href='#buy-dpi'>Invest in a DeFi index: DPI 💲</a></li>
             <li class='hashtag'><a href='#buy-bcp'>Invest BTC/ETH/DeFi by PieDao 🥧</a></li>
             <li class='hashtag'><a href='#btc-to-defi'>Get BTC 🟠 onto Ethereum ⟠</a></li>
-            <li class='hashtag'><a href='#earn-on-btc-eth'>Earn on BTC 🟠 & ETH ⟠ in pools💧</a></li>
+            <li class='hashtaghashtag'><a href='#earn-on-btc-eth'>Earn on BTC 🟠 & ETH ⟠ in pools💧</a></li>
+						<li class='hashtaghashtag'><a href='#go-matic'>Send cheap txs with Matic L2 ✌️</a></li>
+						<li class='hashtaghashtag'><a href='#swap-on-quickswap'>Cheap swaps on Quickswap 🐉</a></li>
 				  </ul>
         </div>
       </div>
@@ -318,7 +327,7 @@
 					<li>Enter amount of wBTC (or click your balance) and Uniswap will fill in the ETH</li>
 					<li>Click to Approve wBTC and confirm transaction, then click Supply and confirm transaction</li>
 					<li>Finished! You are now a market maker earning fees</li>
-					<li>A couple of notes:
+					<li>A couple of notes
 						<ul>
 							<li class='memo'>You will receive back a UNI-V2 token that represents your share of the pool. Keep it!</li>
 							<li class='memo'>Your amount of ETH and wBTC will rebalance over time to stay 50/50 in dollar value</li>
@@ -326,6 +335,68 @@
 							<li class='memo'>Fees are paid into the pool growing the liquidity which you own a share of</li>
 							<li class='memo'>Check your APY (based on 24hr fees) at <a href='https://info.uniswap.org/pairs' target='_blank'>info.uniswap.org/pairs</a></li>
 							<li class='memo'><a href='#track-your-portfolio'>Track the performance</a> of the pool</li>
+						</ul>
+					</li>
+				</ol>
+      </div>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+      <div class='content'>
+        <h2 id='go-matic'>Try: Send tokens to Matic Network</h2>
+				<p class='center'>A Layer 2 network on top of Layer 1 Ethereum for extremely cheap txs<p>
+        <ol>
+					<li>Go to <a href='https://wallet.matic.network/' target='_blank'>wallet.matic.network</a>. Should be set to PoS (proof of stake). Make sure it's not Plasma</li>
+					<li>Click Deposit, read popup, then Continue to Deposit</li>
+					<li>Choose USDC or DAI and choose amount, then click Deposit to Matic (~8 mins)</li>
+					<li>This is an Ethereum transaction so need to <a href='#check-gas-prices'>pay gas</a> ⛽to confirm</li>
+					<li>Next we need to add Matic as a network to Metamask</li>
+					<li>Click Metamask, click top Ethereum Mainnet drowndown, click Custom RPC</li>
+					<li>Fill out fields as below then click Save
+						<ul>
+							<li class='arrow'><b>Network Name:</b> Matic Mainnet</li>
+							<li class='arrow'><b>New RPC URL:</b> https://rpc-mainnet.matic.network</li>
+							<li class='arrow'><b>Chain ID:</b> 137</li>
+							<li class='arrow'><b>Currency Symbol:</b> MATIC</li>
+							<li class='arrow'><b>Block Explorer URL:</b> https://explorer.matic.network</li>
+						</ul>
+					</li>
+					<li>Click same dropdown at top and now click Matic Mainnet to connect to that network.</li>
+					<li>Go to <a href='https://quickswap.exchange/#/swap' target='_blank'>Quickswap</a> and click MATIC top right to claim free MATIC to pay for txs</li>
+					<li>A couple of notes
+						<ul>
+							<li class='memo'>Toggle between Ethereum and Matic networks in Metamask dropdown</li>
+							<li class='memo'>Pay for transactions with MATIC on Matic Network</li>
+							<li class='memo'>Your Matic address = your Ethereum address</li>
+							<li class='memo'>Matic is extremely cheap transactions with Ethereum assurances</li>
+							<li class='memo'>Make sure to claim your free MATIC from <a href='https://quickswap.exchange/#/swap' target='_blank'>Quickswap</a>'s MATIC faucet</li>
+							<li class='memo'>Learn more about the <a href='https://docs.matic.network/docs/home/new-to-matic' target='_blank'>Matic Network</a></li>
+						</ul>
+					</li>
+				</ol>
+      </div>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+      <div class='content'>
+				<h2 id='swap-on-quickswap'>Try: Swap tokens with <i>extremely</i> cheap gas on Quickswap 🐉</h2>
+				<p class='center'>Quickswap on Matic Network lets you swap tokens with extremely cheap gas<p>
+        <ol>
+					<li>Send tokens to your Layer 2 <a href='#go-matic'>Matic Wallet</a></li>
+					<li>Recommended to send USDC or DAI to swap with</li>
+					<li>Connect Metamask to <a href='#go-matic'>Matic Network</a> and go to <a href='https://quickswap.exchange/#/swap' target='_blank'>Quickswap.exchange</a></li>
+					<li>Need MATIC to pay for txs. Need some? Click MATIC top right to claim free MATIC</li>
+					<li>Click to choose token to swap, click "Select a list", choose Quicklist list (one time thing)</li>
+					<li>Now choose token to swap, then choose token to receive (maybe ETH)</li>
+					<li>May have to Approve Token first, then click Swap</li>
+					<li>Done! Notice how small the cost of gas was. Less than $0.001!</li>
+					<li>A couple of notes
+						<ul>
+							<li class='memo'>Yes, Quickswap UI is a clone of Uniswap UI</li>
+							<li class='memo'>Quickswap is growing in liquidity to make it more useful</li>
+							<li class='memo'>Until then be weary of slippage and price impacts on trades</li>
+							<li class='memo'>Not many tokens available yet</li>
+							<li class='memo'>Ethereum tokens need mapped to Matic. <a href='https://mapper.matic.today/' target='_blank'>See the list here</a></li>
 						</ul>
 					</li>
 				</ol>
