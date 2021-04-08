@@ -73,7 +73,7 @@
             <li class='hashtag'><a href='#supply-to-uniswap'>Earn fees on Uniswap 🦄</a></li>
             <li class='hashtag'><a href='#track-il'>Track liquidity on APY.Vision 👀</a></li>
 						
-						<li class='hashtag'><a href='#go-matic'>Send cheap txs with Polygon L2 ✌️</a></li>
+						<li class='hashtag'><a href='#go-matic'>Send cheap txs with Polygon</a></li>
 						<li class='hashtag'><a href='#supply-aave-polygon'>Earn interest on Aave 👻 on Polygon</a></li>
 						<li class='hashtag'><a href='#swap-on-quickswap'>Cheap swaps on Quickswap 🐉</a></li>
 						<li class='hashtag'><a href='#earn-on-quickswap'>Earn fees on Quickswap 🐉</a></li>
@@ -83,6 +83,7 @@
             <li class='hashtag'><a href='#btc-to-defi'>Get BTC 🟠 onto Ethereum ⟠</a></li>
             <li class='hashtaghashtag'><a href='#earn-on-btc-eth'>Earn on BTC 🟠 & ETH ⟠ in pools💧</a></li>
 						<li class='hashtaghashtag'><a href='#swap-on-loopring'>Cheap swaps on Loopring 🌀</a></li>
+						<li class='hashtaghashtag'><a href='#leverage-eth-aave'>Onchain leverage with Aave 👻</a></li>
 				  </ul>
         </div>
       </div>
@@ -279,12 +280,13 @@
       <div class='divider'><div class='divider-line'></div></div>
       
       <div class='content'>
-        <h2 id='go-matic'>Try: Send tokens to Matic Network</h2>
-				<p class='center'>A Layer 2 network on top of Layer 1 Ethereum for extremely cheap txs<p>
+        <h2 id='go-matic'>Try: Start using Polygon Network</h2>
+				<p class='center'>Send extremely cheap transactions on the Polygon Network (formerly Matic)<p>
+				<p class='center'>Polygon is a sidechain that does periodic checkpoints on Ethereum<p>
         <ol>
-					<li>Go to <a href='https://wallet.matic.network/' target='_blank'>wallet.matic.network</a>. Should be set to PoS (proof of stake). Make sure it's not Plasma</li>
-					<li>Click Deposit, read popup, then Continue to Deposit</li>
-					<li>Choose USDC or DAI and choose amount, then click Deposit to Matic (~8 mins)</li>
+					<li>Go to <a href='https://wallet.matic.network/' target='_blank'>wallet.matic.network</a></li>
+					<li>For USDC, search for it and click Deposit (for ETH do Ether (PoS-WETH))</li>
+					<li>Type amount to deposit from Ethereum, click Deposit to Matic (~8 mins)</li>
 					<li>This is an Ethereum transaction so need to <a href='#check-gas-prices'>pay gas</a> ⛽ to confirm</li>
 					<li>Next we need to add Matic as a network to Metamask</li>
 					<li>Click Metamask, click top Ethereum Mainnet drowndown, click Custom RPC</li>
@@ -485,6 +487,36 @@
       <div class='divider'><div class='divider-line'></div></div>
       
       <div class='content'>
+				<h2 id='leverage-eth-aave'>Try: Open on-chain leverage on ETH with Aave 👻</h2>
+				<p class='center'>Get more exposure to price movements without buying more<p>
+				<p class='center'>Supply ETH, borrow DAI, buy ETH with DAI, repeat<p>
+        <ol>
+					<li>Get ETH onto your <a href='#go-matic'>Polygon (formerly Matic) wallet</a></li>
+					<li>Go to <a href='https://app.aave.com/markets' target='_blank'>app.aave.com/markets</a> and select Polygon Market, choose WETH</li>
+					<li>Click Deposit, type in amount, click Continue, click Approve, then Deposit</li>
+					<li>Go to <a href='https://app.aave.com/dashboard' target='_blank'>My Dashboard</a> to make sure WETH is enabled as collateral</li>
+					<li>Go back to <a href='https://app.aave.com/markets' target='_blank'>Markets</a> and choose DAI, then click Borrow</li>
+					<li>Borrow amount to achieve Health Factor of around 2.0, click Continue</li>
+					<li>Pick Variable or Stable APR (note the interest you'll be paying), click Continue, then Borrow</li>
+					<li>You've borrowed DAI to do whatever you want with!</li>
+					<li>Go to <a href="https://quickswap.exchange/#/swap" target="_blank">quickswap.exchange/swap</a> and swap for ETH</li>
+					<li>Take that ETH, repeat the process: supply ETH, borrow DAI, swap for ETH</li>
+					<li></li>
+					<li></li>
+						<ul>
+							<li class='memo'>⚠️If your Health Factor falls below 1.00, you could get liquidated! Ex: Health Factor of 2.00 would be in danger of being liquidated with a 50% price drop in ETH.</li>
+							<li class='memo'>Use <a href='https://app.aave.com/dashboard' target='_blank'>My Dashboard</a> to see your position</li>
+							<li class='memo'>When supplying Tokens to Aave's Polygon market, you get amTokens in return representing your deposit. Whoever holds the amTokens, owns the deposit.</li>
+							<li class='memo'>To repay borrowed tokens, go to <a href='https://app.aave.com/dashboard' target='_blank'>My Dashboard</a> and look for Repay</li>
+							<li class='memo'>Same process is available with Aave Ethereum Market but txs cost much more</li>
+						</ul>
+					</li>
+				</ol>
+      </div>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+      <div class='content'>
       	<p class='center'>Coming soon: Supply liquidity to earn fees and $BAL on Balancer ⚖️</p>
 			</div>
       
@@ -492,12 +524,6 @@
       
       <div class='content'>
       	<p class='center'>Coming soon: Onramp money direclty onto Polygon with Transak</p>
-			</div>
-      
-      <div class='divider'><div class='divider-line'></div></div>
-      
-      <div class='content'>
-      	<p class='center'>Coming soon: Leverage long on-chain with Aave 👻</p>
 			</div>
       
       <div class='divider'><div class='divider-line'></div></div>
