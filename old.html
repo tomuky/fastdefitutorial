@@ -1,0 +1,590 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171278527-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-171278527-1');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Fast DeFi Tutorial</title>
+    <meta name="description" content="Fast DeFi Tutorial">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+    <meta name="author" content="Tom">
+    <link rel="stylesheet" href="css/style.8.css?v=1">
+    <script src="https://code.jquery.com/jquery-1.8.3.js"></script>
+    <script src="https://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+		
+    <meta property="og:url"                content="https://fastdefitutorial.com" />
+    <meta property="og:title"              content="Fast DeFi Tutorial" />
+    <meta property="og:description"        content="The fastest DeFi tutorial on Earth" />
+    <meta property="og:image"              content="images/bolt-fb2.png" />
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@fastdefi">
+    <meta name="twitter:creator" content="@tomuky">
+    <meta name="twitter:title" content="Fast DeFi Tutorial">
+    <meta name="twitter:description" content="The fastest DeFi tutorial on Earth" >
+    <meta name="twitter:image" content="https://fastdefitutorial.com/images/bolt-tw.png" />
+  </head>
+
+  <body>
+
+    <div class='main'>
+      
+      <a href='/' class='title-area'>
+        <h1>The Fastest DeFi Tutorial on Earth</h1>
+      </a>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+			<div class='consult-area'>
+				<a href='https://twitter.com/tomuky' target='_new'>⚡Message me on Twitter for 1-on-1 walk throughs⚡</a>
+			</div>
+			
+      <div class='content'>
+        <h2>Overview</h2>
+        <p class='center'>List of steps straight to DeFi</p>
+				
+        <div class='center'>
+				
+					<div class='legend-area'>
+						<div class='legend'>
+							<span>#️⃣= Beginner</span><span>#️⃣#️⃣= Intermediate</span>
+						</div>
+					</div>
+
+        	<ul class='larger-text'>
+				<li class='hashtag'><a href='/first'>First thing to try 👈</a></li>
+				<li class='hashtag'><a href='#what-is-defi'>What is DeFi 🤔</a></li>
+				<li class='hashtag'><a href='#must-knows'>The must-knows 💡</a></li>
+				<li class='hashtag'><a href='#get-a-wallet'>First: Get a wallet 💰</a></li>
+				<li class='hashtag'><a href='#check-gas-prices'>Check gas prices ⛽</a></li>
+				<li class='hashtag'><a href='#earn-on-compound'>Earn interest on Compound 📈</a></li>
+				<li class='hashtag'><a href='#swap-on-uniswap'>Swap tokens on Uniswap 🦄</a></li>
+				<li class='hashtag'><a href='#track-your-portfolio'>Track your DeFi portfolio 📊</a></li>
+				<li class='hashtag'><a href='#play-no-loss-lottery'>Play a no-loss lottery 🎟</a></li>
+				<li class='hashtag'><a href='#supply-to-uniswap'>Earn fees on Uniswap 🦄</a></li>
+				<li class='hashtag'><a href='#track-il'>Track liquidity on APY.Vision 👀</a></li>
+							
+				<li class='hashtag'><a href='#go-matic'>Get started with Polygon</a></li>
+				<li class='hashtag'><a href='#save-with-mstable'>Save with mStable 🧮</a></li>
+				<li class='hashtag'><a href='#save-with-curve'>Save with Curve 🔴</a></li>
+				<li class='hashtag'><a href='#supply-aave-polygon'>Earn interest on Aave 👻</a></li>
+				<li class='hashtag'><a href='#swap-on-quickswap'>Cheap swaps on Quickswap 🐉</a></li>
+				<li class='hashtag'><a href='#earn-on-quickswap'>Earn fees on Quickswap 🐉</a></li>
+				<li class='hashtag'><a href='#earn-on-balancer'>Earn fees on Balancer ⚖️</a></li>
+							
+				<li class='hashtag'><a href='#buy-dpi'>Invest in a DeFi index: DPI 💲</a></li>
+				<li class='hashtag'><a href='#btc-to-defi'>Get BTC 🟠 onto Ethereum ⟠</a></li>
+				<li class='hashtag'><a href='#doge-to-defi'>Bring DOGE 🐕 to DeFi</a></li>
+
+				<li class='hashtaghashtag'><a href='#earn-on-btc-eth'>Earn on BTC 🟠 & ETH ⟠ in pools💧</a></li>
+				<li class='hashtaghashtag'><a href='#swap-on-loopring'>Cheap swaps on Loopring 🌀</a></li>
+				<li class='hashtaghashtag'><a href='#leverage-eth-aave'>Onchain leverage with Aave 👻</a></li>
+
+			</ul>
+        </div>
+      </div>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+      <div class='content'>
+        <h2 id='what-is-defi'>What is DeFi 🤔</h2>
+        <ul>
+          <li class='i'>Short for Decentralized Finance</li>
+          <li class='i'>Financial products and services built as immutable verifiable code</li>
+					<li class='i'>Most of DeFi is built on the Ethereum blockchain</li>
+					<li class='i'>No intermediaries or middle-men</li>
+					<li class='i'>Available to anyone in the world with an internet connection</li>
+        </ul>
+      </div>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+      <div class='content'>
+        <h2 id='must-knows'>The must-knows 💡</h2>
+        <ul>
+          <li>Always try things with small amounts of money before using larger amounts</li>
+          <li>You need ether (ETH) to pay for gas to transact on the Ethereum network</li>
+          <li>There are gas fees on transactions that will negate any positive yield in DeFi when using small amounts of money, but it is a safe way to learn before using larger amounts of money</li>
+					<li>Make sure network <a href='#check-gas-prices'>gas prices</a> aren't too high for trying things</li>
+					<li>Never share your seed phrase or store them on your phone or computer. Write it down on paper!</li>
+          <li>Only send ether to an ether address, bitcoin to a bitcoin addresses, etc!</li>
+          <li>However, you can send and receive <a href='https://etherscan.io/tokens' target='_blank'>ERC20 tokens</a> with an Ethereum address since they are programmed on the Ethereum network</li>
+					<li>Ether (ETH) is the asset and Ethereum is the network</li>
+        </ul>
+      </div>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+      <div class='content'>
+        <h2 id='get-a-wallet'>First: Get a wallet 💰</h2>
+				<p class='center'>Start here. You need a wallet to interact with DeFi protocols.<p>
+				
+				<ol>
+					<li>Get a <a href='https://www.coinbase.com/join/davis_95' target='_blank'>Coinbase</a> account</li>
+          <li>Connect your checking account</li>
+          <li>Buy maybe $10-$50 worth of ETH (may take some days for funds to clear bank)</li>
+					<li>Download <a href="https://metamask.io/download.html" target='_blank'>MetaMask mobile app</a> (DeFi on mobile)</li>
+					<li>Choose Create a new wallet</li>
+					<li>Follow on-screen instructions, write down seed phrase on paper</li>
+					<li>Download <a href="https://metamask.io/download.html" target="_blank">MetaMask Google Chrome extension</a> (DeFi on desktop)</li>
+          <li>Choose restore wallet from seed phrase (same one from MetaMask mobile)</li>
+					<li>Once ETH is cleared to send off Coinbase, send to your wallet address</li>
+					<li>To get address: touch Add Funds on mobile or click account name in Chrome extension</li>
+				</ol>
+        <p class='center'>Now you are ready to try things.</p>
+      </div>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+      <div class='content'>
+        <h2 id='check-gas-prices'>Check gas prices ⛽</h2>
+				<p class='center'>The network can be busy and cost too much to try things with small amounts<p>
+        <ol>
+					<li>Go to <a href='http://gas.blocknative.com ' target='_blank'>gas.blocknative.com</a></li>
+					<li>This shows gas prices for how fast you want your transactions to be confirmed</li>
+					<li>If the Base Fee is above 40, perhaps wait for another time when the network is less busy</li>
+					<li>You can set up an email alert when gas is low. Go to <a href='https://9000.hal.xyz/' target='_blank'>9000.hal.xyz</a> and sign in using MetaMask</li>
+					<li>Now go to <a href='https://9000.hal.xyz/recipes/chainlink-track-gas-price' target='_blank'>9000.hal.xyz/recipes/chainlink-track-gas-price</a> to create a trigger</li>
+					<li>Type in 40 to be notified when gas is less than 40</li>
+					<li>Enable Send Email and type in your email and a subject for the emails</li>
+					<li>Name this trigger at bottom left, then click Create</li>
+					<li>Now you'll get an email when gas is lower so you know when to come back to try things</li>
+        </ol>
+      </div>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+      <div class='content'>
+        <h2 id='earn-on-compound'>Try: Earn interest on Compound 📈</h2>
+				<p class='center'>Supply assets to the protocol and earn interest. No minimum. Withdraw anytime.<p>
+        <ol>
+          <li>Go to <a href='https://app.compound.finance' target='_blank'>app.compound.finance</a> in Chrome (with MetaMask extension ready)</li>
+          <li>Click to use MetaMask wallet, approve popup</li>
+					<li>Notice the Supply Markets APY for lending particular assets</li>
+					<li>Take special notice of stablecoin markets such as USDC, DAI, and USDT</li>
+					<li>Stablecoins are designed to always be worth $1 so you can consider them US Dollars in crypto</li>
+					<li>Click on an asset to supply (perhaps you need to <a href='#supply-to-uniswap'>swap</a> for the one you want to supply)</li>
+          <li>Type in amount you wish to supply</li>
+					<li>You may have to click Enable for that asset first, confirm that transaction</li>
+          <li>Click Supply and then confirm the transaction</li>
+					<li>Done. <a href="https://compound.finance/documents/Compound.Whitepaper.pdf" target='_blank'>Read about how compound.finance works</a></li>
+					<li>Or take a short lesson and <a href="https://coinbase.com/earn/comp/invite/5nkp6vrj" target='_blank'>earn $10 of $COMP tokens</a> from Coinbase</li>
+        </ol>
+      </div>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+      <div class='content'>
+        <h2 id='swap-on-uniswap'>Try: Swap tokens on Uniswap 🦄</h2>
+				<p class='center'>Swap a token for another token straight from your wallet<p>
+        <ol>
+          <li>Go to <a href='https://app.uniswap.org/#/swap' target='_blank'>app.uniswap.org/#/swap</a> in Chrome (with MetaMask extension ready to go)</li>
+          <li>Click connect wallet, choose MetaMask wallet, click connect</li>
+          <li>Select ETH as the from token</li>
+          <li>Select DAI, or any token you'd like, as the to token</li>
+          <li>Type in amount of ETH (perhaps 0.01)</li>
+          <li>Click to approve new tokens (one time approval per token)</li>
+          <li>Click swap and approve transaction</li>
+          <li>When transaction is complete, token will be in your wallet</li>
+        </ol>
+      </div>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+      <div class='content'>
+        <h2 id='track-your-portfolio'>Try: Track your DeFi portfolio 📊</h2>
+				<p class='center'>All you need is your public Ethereum address and they map it all out for you<p>
+        <ol>
+					<li>Get your address by clicking MetaMask extension and click Account to copy public address</li>
+					<li>There are a few options:
+						<ul>
+							<li class='arrow'><a href='https://zapper.fi' target='_blank'>zapper.fi</a> then click to connect wallet or paste in address</li>
+							<li class='arrow'><a href='https://app.zerion.io/connect-wallet' target='_blank'>zerion.io</a> then click to connect wallet or click Addresses to paste in your address</li>
+							<li class='arrow'><a href='https://debank.com/portfolio/new' target='_blank'>debank.com</a> then paste in your address</li>
+						</ul>
+					</li>
+        </ol>
+      </div>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+      <div class='content'>
+        <h2 id='play-no-loss-lottery'>Try: Play a no-loss lottery 🎟</h2>
+				<p class='center'>Enter to win all the interest earned on the pool<p>
+        <ol>
+          <li>Go to <a href='https://app.pooltogether.com/' target='_blank'>app.pooltogether.com</a> in Chrome (with MetaMask)</li>
+					<li>Click Account, click Connect Wallet, click Meta Mask, confirm any popups</li>
+					<li>Click Pools and click Get tickets</li>
+					<li>Enter number of tickets. (Need DAI? <a href='#swap-on-uniswap'>Swap for some on Uniswap</a>) Click continue.</li>
+					<li>Here are 2 transactions to confirm: Allow DAI and then Deposit</li>
+					<li>All set! Weekly drawings are Friday evenings. Good luck!</li>
+        </ol>
+      </div>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+      <div class='content'>
+        <h2 id='supply-to-uniswap'>Try: Supply liquidity and earn fees on Uniswap 🦄</h2>
+				<p class='center'>Supply liquidity to a trading pool and earn the fees from people paying to swap<p>
+        <ol>
+					<li>Understand what ⚠️<a href='https://finematics.com/impermanent-loss-explained/' target='_blank'>Impermanent Loss</a> ⚠️ is first</li>
+					<li>We will put 2 tokens of equal total USD value into a 50/50 pool for others to swap between</li>
+					<li>A good resource to see which pools are earning the most fees: <a href='https://info.uniswap.org/pairs' target='_blank'>info.uniswap.org/pairs</a></li>
+					<li>A good pool that earns decent APY from fees is the USDC-ETH pool</li>
+					<li>If you have, for example, $50 of USDC and $50 of ETH, you can try the next step</li>
+					<li>Go to <a href='https://app.uniswap.org/#/add/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/ETH' target='_blank'>app.uniswap.org/add</a></li>
+					<li>Enter $50 for USDC and ETH should prefill with $50 worth of ETH</li>
+					<li>Click to Approve (for USDC), then click Supply. Done!</li>
+					<li>If you don't have 2 tokens to supply, you can <a href='#swap-on-uniswap'>swap for what you need first on Uniswap</a></li>
+					<li>Track your liquidity position on <a href='#track-your-portfolio'>Zapper.fi</a> 📊and <a href='#track-il'>APY.Vision</a> 👀</li>
+        </ol>
+      </div>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+      <div class='content'>
+        <h2 id='track-il'>Try: Track impermanent loss on APY.Vision 👀</h2>
+				<p class='center'>Connect or enter your wallet address to get info on your liquidity positions<p>
+        <ol>
+					<li>Go to <a href='https://apy.vision/' target='_blank'>APY.Vision</a></li>
+					<li>Scroll to find and click Connect Wallet</li>
+					<li>Choose Meta Mask, confirm popup</li>
+					<li>You should now see all your liquidity positions from popular protocols</li>
+					<li>"Liquidity Pool Gains" is your $ loss/gain from asset allocation changes being in the pool</li>
+				</ol>
+      </div>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+      <div class='content'>
+        <h2 id='go-matic'>Try: Start using Polygon Network</h2>
+				<p class='center'>Send extremely cheap transactions on the Polygon Network (formerly Matic)<p>
+				<p class='center'>Polygon is a sidechain that does periodic checkpoints on Ethereum<p>
+        <ol>
+					<li>Go to <a href='https://wallet.matic.network/' target='_blank'>wallet.matic.network</a></li>
+					<li>For USDC, search for it and click Deposit (for ETH do Ether (PoS-WETH))</li>
+					<li>Type amount to deposit from Ethereum, click Deposit to Matic (~8 mins)</li>
+					<li>This is an Ethereum transaction so need to <a href='#check-gas-prices'>pay gas</a> ⛽ to confirm</li>
+					<li>Next go to <a href='https://quickswap.exchange/' target='_blank'>Quickswap</a> and click Switch to Matic (might say Polygon)</li>
+					<li>MetaMask will prompt to add Polygon (formerly Matic) as a network, click to Approve and connect</li>
+					<li>Need Matic tokens to pay for txs, go to <a href='https://matic.supply/' target='_blank'>matic.supply</a> to claim free Matic</li>
+					<li>Now you can try things on the Polygon network!</li>
+					<li>A couple of notes
+						<ul>
+							<li class='memo'>Toggle between Ethereum and Matic networks in Metamask dropdown</li>
+							<li class='memo'>Pay for transactions with MATIC on Polygon Network</li>
+							<li class='memo'>Your Polygon address = your Ethereum address</li>
+							<li class='memo'>⚠️ Never send tokens to Polygon from an exchange wallet, like Coinbase</li>
+							<li class='memo'>Polygon is extremely cheap transactions</li>
+							<li class='memo'>Learn more about the <a href='https://docs.matic.network/docs/home/new-to-matic' target='_blank'>Polygon Network</a></li>
+						</ul>
+					</li>
+				</ol>
+      </div>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+      <div class='content'>
+        <h2 id='save-with-mstable'>Try: Save with mStable 🧮</h2>
+				<p class='center'>Deposit stablecoins into mStable's high-interest savings contract<p>
+				<p class='center'>Withdraw anytime. Supply any amount of value to try.<p>
+        <ol>
+					<li>Check current APY on <a href='https://app.mstable.org/#/musd/save' target='_blank'>app.mStable.org/musd/save</a></li>
+					<li>Buy some USDC in the amount you want to save on <a href='https://www.coinbase.com/price/usdc' target='_blank'>Coinbase</a> (no fees!)</li>
+					<li>Send the USDC to your Ethereum address (need some ETH too)</li>
+					<li>Now send the USDC to the <a href='#go-matic'>Polygon (formerly Matic) Network</a></li>
+					<li>Go to <a href='https://app.mstable.org/#/musd/save' target='_blank'>app.mStable.org/musd/save</a>, click connect wallet</li>
+					<li>Choose Polygon in top dropdown and change network in MetaMask to Polygon (formerly Matic)</li>
+					<li>Enter USDC amount to deposit, click Mint & Save</li>
+					<li>Might have to click to approve exact amount, confirm tx</li>
+					<li>Done! You now hold imUSD tokens which are interest-bearing mUSD (mUSD = USDC)</li>
+					<li>Explore the numbers behind the APY on <a href='https://app.mstable.org/#/musd/stats' target='_blank'>app.mStable.org/musd/stats</a></li>
+        </ol>
+      </div>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+      <div class='content'>
+        <h2 id='save-with-curve'>Try: Save with Curve 🔴</h2>
+				<p class='center'>Deposit stablecoins into Curve's efficient stablecoin market<p>
+				<p class='center'>Withdraw anytime. Supply any amount of value to try.<p>
+        <ol>
+					<li>Check current APY on <a href='https://polygon.curve.fi/' target='_blank'>polygon.curve.fi</a></li>
+					<li>Buy some USDC in the amount you want to save on <a href='https://www.coinbase.com/price/usdc' target='_blank'>Coinbase</a> (no fees!)</li>
+					<li>Send the USDC to your <a href='#get-a-wallet'>MetaMask</a> Ethereum address (need some ETH too)</li>
+					<li>Now send the USDC to the <a href='#go-matic'>Polygon (formerly Matic) Network</a></li>
+					<li>Go to <a href='https://polygon.curve.fi/aave/deposit' target='_blank'>polygon.curve.fi/aave/deposit</a> and click to connect wallet</li>
+					<li>Might have to change network in your MetaMask to Polygon (formerly Matic)</li>
+					<li>Enter amount of USDC to deposit, click Deposit & stake in gauge, confirm txs</li>
+					<li>Done! You deposit to earn trading fees and you stake in gauge to earn additional rewards</li>
+					<li>To see your deposit, go to <a href='https://polygon.curve.fi/' target='_blank'>polygon.curve.fi</a> and click My Dashboard</li>
+					<li>Deposit will also show on <a href='https://zapper.fi/' target='_blank'>zapper.fi</a></li>
+        </ol>
+      </div>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+      <div class='content'>
+				<h2 id='supply-aave-polygon'>Try: Earn interest on Aave 👻</h2>
+				<p class='center'>Supply tokens to Aave's Polygon Market with cheap transactions<p>
+				<p class='center'>Withdraw anytime. Supply any amount of value to try.<p>
+        <ol>
+					<li>Check <a href='https://app.aave.com/markets' target='_blank'>app.aave.com/markets</a> and select Polygon Market to see current rates</li>
+					<li>Get the tokens you want to deposit in your <a href='#go-matic'>Polygon (formerly Matic) wallet</a></li>
+					<li>Go back to the <a href='https://app.aave.com/markets' target='_blank'>Aave Polygon Market</a> and click the token you want to deposit</li>
+					<li>Click the Deposit button, enter amount, then Continue</li>
+					<li>For tokens other than ETH, you'll need to Approve first time (near $0.00 cost)</li>
+					<li>Once transaction is complete, now click Deposit and confirm transaction</li>
+					<li>Done! Go to My Dashboard to see your deposit earning interest</li>
+					<li>A couple of notes
+						<ul>
+							<li class='memo'>You'll receive amTokens (amDAI for depositing DAI) representing your deposit</li>
+							<li class='memo'>Follow same steps for Aave's Ethereum Layer 1 Markets, txs cost more</li>
+				</ol>
+      </div>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+      <div class='content'>
+				<h2 id='swap-on-quickswap'>Try: Swap tokens with <i>extremely</i> cheap gas on Quickswap 🐉</h2>
+				<p class='center'>Quickswap on Matic Network lets you swap tokens with extremely cheap gas<p>
+        <ol>
+					<li>Send tokens to your Layer 2 <a href='#go-matic'>Matic Wallet</a></li>
+					<li>Recommended to send USDC or DAI to swap with</li>
+					<li>Connect Metamask to <a href='#go-matic'>Matic Network</a> and go to <a href='https://quickswap.exchange/#/swap' target='_blank'>Quickswap.exchange</a></li>
+					<li>Need MATIC to pay for txs. Need some? Click MATIC top right to claim free MATIC</li>
+					<li>Click to choose token to swap, might have to "Select a list" and choose Quickswap's</li>
+					<li>Now choose token to swap, then choose token to receive (maybe ETH)</li>
+					<li>May have to Approve Token first, then click Swap</li>
+					<li>Done! Notice how small the cost of gas was. Less than $0.001!</li>
+					<li>A couple of notes
+						<ul>
+							<li class='memo'>Yes, Quickswap UI is a clone of Uniswap UI</li>
+							<li class='memo'>Quickswap is growing in liquidity to make it more useful</li>
+							<li class='memo'>Until then be weary of slippage and price impacts on trades</li>
+							<li class='memo'>Not many tokens available yet</li>
+							<li class='memo'>Ethereum tokens need mapped to Matic. <a href='https://mapper.matic.today/' target='_blank'>See the list here</a></li>
+						</ul>
+					</li>
+				</ol>
+      </div>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+      <div class='content'>
+				<h2 id='earn-on-quickswap'>Try: Earn fees by providing liquidity to Quickswap 🐉</h2>
+				<p class='center'>Become a market maker and earn fees from people swapping tokens<p>
+				<p class='center'>Assets will continuously rebalance to 50/50 in value<p>
+        <ol>
+					<li>Check the <a href="https://info.quickswap.exchange/pairs" target="_blank">current top pools</a> and note APY's (based on last 24 hrs of fees)</li>
+					<li>Send USDC from your Ethereum wallet to your <a href='#go-matic'>Matic wallet (one-time configuration)</a></li>
+					<li>Get free MATIC tokens to pay for txs by clicking MATIC on top of <a href="https://quickswap.exchange/#/swap" target="_blank">Quickswap</a> page</li>
+					<li><a href='#swap-on-quickswap'>Swap on Quickswap</a> to get 50/50 in tokens of the pool you want (ex: $400 to ETH and $400 to wBTC)</li>
+					<li>Click the pool on <a href="https://info.quickswap.exchange/pairs" target="_blank">info.quickswap.exchange/pairs</a> and click Add Liquidity</li>
+					<li>Enter the 2 tokens to add in equal values, click Supply</li>
+					<li>Done! You're now earning swap fees as a market maker</li>
+					<li>A couple of notes
+						<ul>
+							<li class='memo'>Be aware of ⚠️<a href='https://finematics.com/impermanent-loss-explained/' target='_blank'>Impermanent Loss</a> ⚠️</li>
+							<li class='memo'>Monitor your position using <a href='https://apy.vision/#/' target='_blank'>apy.vision</a></li>
+							<li class='memo'>Bonus: choose a pool that is currently earning <a href='https://quickswap.exchange/#/quick' target='_blank'>QUICK rewards</a>, deposit the pool tokens you receive after supplying liquidity</li>
+						</ul>
+					</li>
+				</ol>
+      </div>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+      <div class='content'>
+				<h2 id='earn-on-balancer'>Try: Earn fees on Balancer ⚖️</h2>
+				<p class='center'>Automated portfolio manager and trading platform<p>
+				<p class='center'>Dynamic weights beyond just 50/50 pools like Uniswap<p>
+				<p class='center'>Earn fees when others rebalance your pool with swaps<p>
+        <ol>
+					<li>Go to <a href="https://app.balancer.fi/#/" target="_blank">app.balancer.fi</a> and choose Polygon on top left</li>
+					<li>Click to Connect Wallet. Might have to accept switch to Polygon Network</li>
+					<li>Scroll to see available pools and APY's. Try this 33/33/33 pool: <a href="https://polygon.balancer.fi/#/pool/0x03cd191f589d12b0582a99808cf19851e468e6b500010000000000000000000a" target="_blank">ETH/BTC/USDC</a></li>
+					<li>Send needed tokens to your <a href='https://wallet.matic.network/' target='_blank'>Polygon Wallet</a> (you could deposit a single token into the pool and it will swap into the other tokens for you. Example: deposit $90 of USDC and it will convert to $30 USDC, $30 BTC, and $30 ETH)</li>
+					<li>Go to <a href="https://polygon.balancer.fi/#/pool/0x03cd191f589d12b0582a99808cf19851e468e6b500010000000000000000000a" target="_blank">ETH/BTC/USDC</a> and type amount to deposit</li>
+					<li>Click to approve each token and click to confirm deposit</li>
+					<li>Done! Now you own a portion of the 30/30/30 ETH/BTC/USDC pool earning fees</li>
+					<li>For this particular pool, you also earn BAL tokens automatically!</li>
+					<li>A couple of notes
+						<ul>
+							<li class='memo'>Be aware of ⚠️<a href='https://finematics.com/impermanent-loss-explained/' target='_blank'>Impermanent Loss</a> ⚠️</li>
+							<li class='memo'>As prices change, balances will adjust to meet the weights</li>
+							<li class='memo'>Monitor your position with <a href='https://apy.vision/#/' target='_blank'>apy.vision</a></li>
+							<li class='memo'>See your deposit on <a href='https://zapper.fi' target='_blank'>zapper.fi</a></li>
+						</ul>
+					</li>
+				</ol>
+      </div>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+      <div class='content'>
+        <h2 id='buy-dpi'>Try: Invest in DeFi with a single token - DPI 💲</h2>
+				<p class='center'>DeFi Pulse Index (DPI) is a capitalization-weighted index that tracks top DeFi tokens<p>
+        <ol>
+					<li>Go to <a href='https://www.coinbase.com/' target='_blank'>Coinbase</a> and buy dollar amount of ETH you want of DPI (add $2-$5 for gas)</li>
+					<li>Once the ETH is available to send off Coinbase, send it to your <a href='#get-a-wallet'>wallet</a></li>
+					<li>Go to <a href='https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x1494ca1f11d487c2bbe4543e90080aeba4ba3c2b' target='_blank'>Uniswap</a> 🦄 to swap the ETH for DPI</li>
+					<li>Enter amount of ETH to swap for DPI, click swap, confirm transaction</li>
+					<li>Done. DPI will be in your wallet once transaction is confirmed</li>
+					<li>Information on the DPI token: <a href='https://www.tokensets.com/portfolio/dpi' target='_blank'>TokenSets.com/portfolio/dpi</a></li>
+				</ol>
+      </div>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+      <div class='content'>
+        <h2 id='btc-to-defi'>Try: Get your BTC 🟠 onto Ethereum</h2>
+				<p class='center'>Wrap your bitcoin onto the Ethereum network and unlock yield possibilities<p>
+        <ol>
+					<li>Coinbase offers BTC 🔁wBTC conversion for a tiny fee. Go to <a href='https://www.coinbase.com/price/bitcoin' target='_blank'>Coinbase</a> and look for Convert</li>
+					<li>If your BTC is not on Coinbase, you could send your BTC to Coinbase</li>
+					<li>Send wBTC to your Ethereum address. Network fee could be high so <a href='#check-gas-prices'>check gas prices</a> ⛽</li>
+					<li>Your BTC (as wrapped BTC, or wBTC) is now ready to use in DeFi on Ethereum</li>
+				</ol>
+      </div>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+      <div class='content'>
+        <h2 id='earn-on-btc-eth'>Try: Earn yield on your BTC 🟠 & ETH ⟠ in a pool 💧</h2>
+				<p class='center'>Supply BTC and ETH to a 50/50 pool and earn fees as a market maker<p>
+				<p class='center'>Your BTC and ETH will automatically rebalance to stay 50/50 in dollar value<p>
+        <ol>
+					<li>Get 50/50 ETH and <a href='#btc-to-defi'>wBTC (wrapped BTC)</a> in your <a href='#get-a-wallet'>wallet</a> (ex: $400 in ETH and $400 in wBTC)</li>
+					<li>Note: this should not include the ETH in your wallet to pay for transactions</li>
+					<li>If <a href='#check-gas-prices'>gas prices</a> ⛽ are okay, go to the <a href='https://app.uniswap.org/#/add/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599/ETH' target='_blank'>Uniswap 🦄 ETH/wBTC</a> pool</li>
+					<li>Make sure your wallet is connected at top right of page</li>
+					<li>Enter amount of wBTC (or click your balance) and Uniswap will fill in the ETH</li>
+					<li>Click to Approve wBTC and confirm transaction, then click Supply and confirm transaction</li>
+					<li>Finished! You are now a market maker earning fees</li>
+					<li>A couple of notes
+						<ul>
+							<li class='memo'>Be aware of what ⚠️<a href='https://finematics.com/impermanent-loss-explained/' target='_blank'>Impermanent Loss</a> ⚠️ is</li>
+							<li class='memo'>You will receive back a UNI-V2 token that represents your share of the pool. Keep it!</li>
+							<li class='memo'>Your amount of ETH and wBTC will rebalance over time to stay 50/50 in dollar value</li>
+							<li class='memo'>You earn fees from people swapping between the 2, paid in ETH and wBTC</li>
+							<li class='memo'>Fees are paid into the pool growing the liquidity which you own a share of</li>
+							<li class='memo'>Check your APY (based on 24hr fees) at <a href='https://info.uniswap.org/pairs' target='_blank'>info.uniswap.org/pairs</a></li>
+							<li class='memo'><a href='#track-your-portfolio'>Track the performance</a> of the pool</li>
+						</ul>
+					</li>
+				</ol>
+      </div>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+      <div class='content'>
+			<h2 id='swap-on-loopring'>Try: Swap with cheap gas on Loopring 🌀</h2>
+			<p class='center'>Activate your address on Loopring's Layer 2 and swap with very cheap txs<p>
+			<ol>
+				<li>Check which pairs are available on <a href='https://exchange.loopring.io/swap' target='_blank'>loopring.io/swap</a></li>
+				<li>Get the amount you want to swap with in ETH in <a href='#get-a-wallet'>your wallet</a></li>
+				<li>Go to <a href='https://exchange.loopring.io/swap' target='_blank'>loopring.io/swap</a> and click your address at top right</li>
+				<li>Click Activate Layer-2 and read. Enter amount in ETH you want to use to swap with</li>
+				<li>Click Deposit To Activate Layer-2 and confirm tx (this will essentially be the only gas spent)</li>
+				<li>Few minutes later, you'll see your deposit on <a href='https://exchange.loopring.io/account/balances' target='_blank'>loopring.io/account</a></li>
+				<li>Once your ETH shows up, you can now swap on <a href='https://exchange.loopring.io/swap' target='_blank'>loopring.io/swap</a></li>
+				<li>For buying <a href='https://www.tokensets.com/portfolio/dpi' target='_blank'>DeFi Pulse Index</a>, choose From ETH and To DPI, and enter amount of ETH</li>
+				<li>Click Swap. Done! Your DPI will show up in your <a href='https://exchange.loopring.io/account/balances' target='_blank'>Loopring Layer 2 account</a></li>
+				<li>A couple of notes
+					<ul>
+						<li class='memo'>The one tx to deposit ETH to Loopring's Layer 2 is cheaper than just swapping on Layer 1</li>
+						<li class='memo'>⚠️ Never send tokens to Loopring from an exchange wallet, like Coinbase</li>
+						<li class='memo'>With cheap swaps, you could even <a href="https://www.youtube.com/watch?v=nCp2bZbaBdw" target='_blank'>dollar cost average</a> instead of a lump-sum buy</li>
+						<li class='memo'>Explore other available tokens to swap by clicking the dropdown on <a href='https://exchange.loopring.io/swap' target='_blank'>loopring.io/swap</a></li>
+						<li class='memo'>Coming back to Loopring after awhile, you'll need to click to unlock your address (no gas)</li>
+						<li class='memo'>You can withdraw from Loopring's Layer 2 back to Layer 1</li>
+					</ul>
+				</li>
+			</ol>
+      </div>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+      <div class='content'>
+			<h2 id='leverage-eth-aave'>Try: Open on-chain leverage on ETH with Aave 👻</h2>
+			<p class='center'>Get more exposure to price movements without buying more<p>
+			<p class='center'>Supply ETH, borrow DAI, buy ETH with DAI, repeat<p>
+			<ol>
+				<li>Get ETH onto your <a href='#go-matic'>Polygon (formerly Matic) wallet</a></li>
+				<li>Go to <a href='https://app.aave.com/markets' target='_blank'>app.aave.com/markets</a> and select Polygon Market, choose WETH</li>
+				<li>Click Deposit, type in amount, click Continue, click Approve, then Deposit</li>
+				<li>Go to <a href='https://app.aave.com/dashboard' target='_blank'>My Dashboard</a> to make sure WETH is enabled as collateral</li>
+				<li>Go back to <a href='https://app.aave.com/markets' target='_blank'>Markets</a> and choose DAI, then click Borrow</li>
+				<li>Borrow amount to achieve Health Factor of around 2.0, click Continue</li>
+				<li>Pick Variable or Stable APR (note the interest you'll be paying), click Continue, then Borrow</li>
+				<li>You've borrowed DAI to do whatever you want with!</li>
+				<li>Go to <a href="https://quickswap.exchange/#/swap" target="_blank">quickswap.exchange/swap</a> and swap for ETH</li>
+				<li>Take that ETH, repeat the process: supply ETH, borrow DAI, swap for ETH</li>
+				<li></li>
+				<li></li>
+				<li>A couple of notes
+					<ul>
+						<li class='memo'>⚠️If your Health Factor falls below 1.00, you could get liquidated! Ex: Health Factor of 2.00 would be in danger of being liquidated with a 50% price drop in ETH.</li>
+						<li class='memo'>Use <a href='https://app.aave.com/dashboard' target='_blank'>My Dashboard</a> to see your position</li>
+						<li class='memo'>When supplying Tokens to Aave's Polygon market, you get amTokens in return representing your deposit. Whoever holds the amTokens, owns the deposit.</li>
+						<li class='memo'>To repay borrowed tokens, go to <a href='https://app.aave.com/dashboard' target='_blank'>My Dashboard</a> and look for Repay</li>
+						<li class='memo'>Same process is available with Aave Ethereum Market but txs cost much more</li>
+					</ul>
+				</li>
+			</ol>
+      </div>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+      <div class='content'>
+			<h2 id='doge-to-defi'>Try: Bring DOGE 🐕 to DeFi</h2>
+			<p class='center'>Bridge assets like DOGE between blockchains to use in DeFi<p>
+			<ol>
+				<li>Have an <a href='#get-a-wallet'>Ethereum MetaMask wallet</a></li>
+				<li>Set up your wallet with <a href='#go-matic'>Polygon</a> (if already set up, toggle MetaMask network to Polygon)</li>
+				<li>Go to <a href='https://bridge.renproject.io/mint' target='_blank'>bridge.renproject.io/mint</a></li>
+				<li>Select DOGE to send to Polygon, then click Connect wallet, then Next</li>
+				<li>Enter amount of DOGE to send to calculate fees</li>
+				<li>Have at least 1 MATIC token in the destination wallet (check the box)</li>
+				<li>Click View Gateway Address, read warning, click Continue</li>
+				<li>Send DOGE to this provided address from your DOGE wallet</li>
+				<li>After a few minutes you have to click to claim the DOGE (now renDOGE) on Polygon</li>
+				<li>A couple of notes
+					<ul>
+						<li class='memo'>⚠️Try with a small amount of DOGE for your first attempt</li>
+						<li class='memo'>Now try adding it to the <a href='#earn-on-quickswap'>renDOGE/ETH Quickswap pool to earn fees</a></li>
+						<li class='memo'>Bonus: you can stake your renDOGE/ETH position to earn QUICK rewards</li>
+					</ul>
+				</li>
+			</ol>
+      </div>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+      
+      
+      <p class='center'>More coming soon 🤓</p>
+      
+      <div class='divider'><div class='divider-line'></div></div>
+      
+    </div>
+
+  </body>
+  
+  <footer>
+  	<a href='https://github.com/tomuky/fastdefitutorial' target='_blank'>github</a> | <a href='https://twitter.com/fastdefi' target='_blank'>twitter</a> | created by <a href='https://twitter.com/tomuky' target='_blank'>@tomuky</a>
+  </footer>
+  
+</html>
