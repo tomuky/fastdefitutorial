@@ -13,22 +13,22 @@
     </script>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fast DeFi Tutorial</title>
+    <link rel="icon" type="image/x-icon" href="images/fdt.ico">
     <meta name="description" content="Fast DeFi Tutorial">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
     <meta name="author" content="Tom">
-    <link rel="stylesheet" href="css/fast.0.css?v=0">
+    <link rel="stylesheet" href="css/fast.0.1.css?v=0">
     <script src="https://code.jquery.com/jquery-1.8.3.js"></script>
     <script src="https://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
-	<script src="js/data.0.js"></script>
-	<script src="js/fast.0.js"></script>
+	<script src="js/data.0.1.js"></script>
+	<script src="js/fast.0.1.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 		
     <meta property="og:url"                content="https://fastdefitutorial.com" />
     <meta property="og:title"              content="Fast DeFi Tutorial" />
     <meta property="og:description"        content="The fastest DeFi tutorial on Earth" />
-    <meta property="og:image"              content="images/fast-tw.png" />
+    <meta property="og:image"              content="images/fast-tw2.png" />
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@fastdefi">
@@ -62,12 +62,12 @@
 				<div class="left-pane-list-item view-button" subject="hello">
 					<img src="images/welcome-logo.png" class="list-logo"><span>Hello</span>
 				</div>
-
-				<div class="left-pane-divider"></div>
-
 				<div class="left-pane-list-item view-button" subject="first-thing">
 					<img src="images/first-logo.png" class="list-logo"><span>First thing to try</span>
 				</div>
+
+				<div class="left-pane-divider"></div>
+
 				<div class="left-pane-list-item view-button"  subject="what-is-defi">
 					<img src="images/question-icon.png" class="list-logo"><span>What is DeFi</span>
 				</div>
@@ -87,11 +87,11 @@
 				<div class="left-pane-divider"></div>
 
 				<div class="left-pane-list-item group-button" id="polygon">
-					<img src="images/polygon-logo.png" class="list-logo"><span>Try Polygon</span>
+					<img src="images/polygon-logo.png" class="list-logo"><span>Polygon</span><img src="images/dropdown.png" class="list-dropdown-logo">
 				</div>
-				<div class="left-pane-list-group" group="polygon" >
+				<div class="left-pane-list-group" group="polygon" style="display:none;">
 					<div class="left-pane-list-item view-button" subject="try-polygon">
-						<img src="images/polygon-logo.png" class="list-logo"><span>Get on Polygon</span>
+						<img src="images/polygon-logo.png" class="list-logo"><span>Try Polygon</span>
 					</div>
 					<div class="left-pane-list-item view-button" subject="save-with-aave">
 						<img src="images/aave-logo.png" class="list-logo"><span>Earn interest on Aave</span>
@@ -114,33 +114,43 @@
 					<div class="left-pane-list-item view-button" subject="earn-on-curve">
 						<img src="images/curve-logo.png" class="list-logo"><span>Earn on Curve</span>
 					</div>
-				</div>
-
-				<!--
-				<div class="left-pane-list-item group-button" id="ethereum">
-					<img src="images/ethereum-logo.png" class="list-logo"><span>Try Ethereum</span>
-				</div>
-				<div class="left-pane-list-group" group="ethereum" style="display:none;">
-					<div class="left-pane-list-item view-button" subject="check-gas">
-						<img src="images/gas-logo.png" class="list-logo"><span>Check gas pricese</span>
+					<div class="left-pane-list-item view-button" subject="bridge-with-hop">
+						<img src="images/hop-logo.png" class="list-logo"><span>Bridge with Hop</span>
 					</div>
-					<div class="left-pane-list-item view-button" subject="buy-on-opensea">
-						<img src="images/opensea-logo.png" class="list-logo"><span>Buy NFTs on Opensea</span>
+					<div class="left-pane-list-item view-button" subject="earn-on-hop">
+						<img src="images/hop-logo.png" class="list-logo"><span>Earn on Hop</span>
 					</div>
 				</div>
 
 				<div class="left-pane-list-item group-button" id="optimism">
-					<img src="images/optimism-logo.png" class="list-logo"><span>Try Optimism</span>
+					<img src="images/optimism-logo.png" class="list-logo"><span>Optimism</span><img src="images/dropdown.png" class="list-dropdown-logo">
 				</div>
 				<div class="left-pane-list-group" group="optimism" style="display:none;">
 					<div class="left-pane-list-item view-button" subject="try-optimism">
-						<img src="images/optimism-logo.png" class="list-logo"><span>Get on Optimism</span>
+						<img src="images/optimism-logo.png" class="list-logo"><span>Try Optimism</span>
 					</div>
 					<div class="left-pane-list-item view-button" subject="bet-on-sports">
-						<img src="images/overtime-logo.png" class="list-logo"><span>Bet on sports</span>
+						<img src="images/overtime-logo.png" class="list-logo"><span>Bet on Sports</span>
+					</div>
+					<div class="left-pane-list-item">
+						<span style="color:grey;">More coming soon</span>
 					</div>
 				</div>
-				-->
+
+				<div class="left-pane-list-item group-button" id="ethereum">
+					<img src="images/ethereum-logo.png" class="list-logo"><span>Ethereum</span><img src="images/dropdown.png" class="list-dropdown-logo">
+				</div>
+				<div class="left-pane-list-group" group="ethereum" style="display:none;">
+					<div class="left-pane-list-item">
+						<span style="color:grey;">More coming soon</span>
+					</div>
+					<!--<div class="left-pane-list-item view-button" subject="check-gas">
+						<img src="images/gas-logo.png" class="list-logo"><span>Check gas pricese</span>
+					</div>
+					<div class="left-pane-list-item view-button" subject="buy-on-opensea">
+						<img src="images/opensea-logo.png" class="list-logo"><span>Buy NFTs on Opensea</span>
+					</div>-->
+				</div>
 
 				<div class="left-pane-divider"></div>
 

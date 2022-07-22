@@ -14,15 +14,23 @@ $(document).on('ready',function(){
     $('.view-button').removeClass('left-pane-list-item-selected');
     $('[subject="'+app.sel+'"]').addClass('left-pane-list-item-selected');
 
+    // unhide group if initial view is hidden in left pane
+    if(!$('[subject="'+app.sel+'"]').is(':visible')) $('[subject="'+app.sel+'"]').parents('[group]').show();
+    
     // clicking on left pane group shows/hides group within left pane
     $('.group-button').on('click',function(d){
         if (d.target !== this) return;
         let group = $(d.target).attr("id");
         $('[group="'+group+'"]').slideToggle(100);
+
+        $(d.target).find('.list-dropdown-logo').toggleClass('flip'); // animate dropdown icon
+
     }).find('span, img').on('click',function(d){
         if (d.target !== this) return;
         let group = $(d.target).parent().attr("id");
         $('[group="'+group+'"]').slideToggle(100);
+
+        $(d.target).parent().find('.list-dropdown-logo').toggleClass('flip'); // animate dropdown icon
     });
 
     // clicking an item in left pane, to pick new section to show in main pane
@@ -62,6 +70,9 @@ let app = {
     //sel : 'hello', // default
 
     switchView: function(){
+
+        // scroll to the top
+        window.scrollTo(0,0);
 
         // set hash in url
         window.location.hash = this.sel;
