@@ -286,7 +286,7 @@ let data = {
             "It makes sending tokens between networks quick, easy, and cheap"
         ],
         steps : [
-            "let's send some ETH from Polygon to Optimism (both are cheaper networks)",
+            "Let's send some ETH from Polygon to Optimism (both are cheaper networks)",
             "If you don't have ETH on Polygon yet, swap for some <a href='#swap-on-quickswap' target='_blank'>using Quickswap</a>",
             "Go to <a href='https://app.hop.exchange/#/send' target='_blank'>app.hop.exchange/#/send</a>",
             "Choose ETH to send, Polygon as From network, and Optism as To network",
@@ -305,8 +305,9 @@ let data = {
             "Provide liquidity to the bridge and earn fees from bridgers"
         ],
         steps : [
+            "Go to <a href='https://defillama.com/yields?project=hop-protocol' target='_blank'>DeFiLlama.com</a> to see list of Hop pool APYs",
+            "Let's try providing liquidity for ETH for the Polygon bridge",
             "Go to <a href='https://app.hop.exchange/#/pool?sourceNetwork=polygon&destNetwork=polygon&token=ETH' target='_blank'>app.hop.exchange/#/pool</a>",
-            "Let's try providing liquidity for ETH for Polygon bridge",
             "Choose ETH and Polygon",
             "Enter amount of ETH you wish to deposit",
             "Click Add Liquidity, and should be a popup to Approve first",
@@ -356,7 +357,9 @@ let data = {
 }
 
 // ideas:
-// buy nfts 
+// buy nfts on opensea
 // bet on exotic markets
 // lend/borrow nfts to earn yield
-// 
+// lens protocol
+// barnbridge
+//
