@@ -13,9 +13,10 @@ $(document).on('ready',function(){
     app.switchView();
     $('.view-button').removeClass('left-pane-list-item-selected');
     $('[subject="'+app.sel+'"]').addClass('left-pane-list-item-selected');
-
     // unhide group if initial view is hidden in left pane
     if(!$('[subject="'+app.sel+'"]').is(':visible')) $('[subject="'+app.sel+'"]').parents('[group]').show();
+    // handle menu group expand ui icon
+    $('[subject="'+app.sel+'"]').parents('[group]').find('.list-dropdown-logo').toggleClass('flip');
     
     // clicking on left pane group shows/hides group within left pane
     $('.group-button').on('click',function(d){
@@ -55,15 +56,26 @@ $(document).on('ready',function(){
     // clicking on menu hamburger button, show/hide menu
     $('.menu-button').on('click touchstart',function(d){
         if (d.target !== this) return;
+        window.scrollTo(0,0);
         if($('.left-pane').css('left')=='0px') $('.left-pane').animate({'left':'-300px'},100);
         else $('.left-pane').animate({'left':'0px'},100);
     }).find('img').on('click',function(d){
         if (d.target !== this) return;
+        window.scrollTo(0,0);
         if($('.left-pane').css('left')=='0px') $('.left-pane').animate({'left':'-300px'},100);
         else $('.left-pane').animate({'left':'0px'},100);
     });
 
-});
+}).on('click','a',function(d){  // clicking embedded links, load new stuff without leaving page
+    if (d.target !== this) return;
+    if(!$(d.target).attr("subject")) return;
+    let subject = $(d.target).attr("subject");
+    app.sel = subject;
+    app.switchView();
+    window.location.hash = app.sel; // set hash in url to new subject 
+    $('.view-button').removeClass('left-pane-list-item-selected');
+    $('[subject="'+subject+'"]').addClass('left-pane-list-item-selected');
+});;
 
 let app = {
 

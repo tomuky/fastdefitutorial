@@ -4,10 +4,10 @@ let data = {
         icon : 'images/welcome-logo.png',
         descriptions : [
             "This is Fast DeFi Tutorial.",
+            "DeFi is finance using the blockchain.",
             "Easy. Straight to the point. Step-by-step.",
-            "No blogs or videos to rummage through.",
             "Questions? Reach out on <a href='https://twitter.com/tomuky' target='_blank'>Twitter</a><img src='images/twitter-logo.png' class='inline-icon'>",
-            "Select from the menu to get started"
+            "To get started, <a href='#first-thing' subject='first-thing'>click here</a><img src='images/first-logo.png' class='inline-icon'>"
         ],
         steps : [
 
@@ -37,14 +37,15 @@ let data = {
             "Starting from step 0?",
             "Here's what you should try first."
         ],
-        steps : [],
-        list : [
-            "Set up a <a href='#get-wallet' target='_blank'>MetaMask wallet</a>",
-            "Buy $20 of USDC on <a href='#get-coinbase' target='_blank'>Coinbase</a>",
-            "Send the USDC to your MetaMask over <a href='#try-polygon' target='_blank'>Polygon network</a>",
-            "Swap some USDC for 1 MATIC using Polygon's gas-free swap",
-            "Deposit $5 USDC into <a href='#save-with-aave' target='_blank'>Aave</a> to earn interest",
-            "Track your deposit using <a href='#track-portfolio' target='_blank'>Zapper.fi</a>"
+        list : [],
+        steps : [
+            "Know the <a href='#must-knows' subject='must-knows'>must-knows</a><img src='images/important-icon.png' class='inline-icon'> of DeFi",
+            "Set up a <a href='#get-wallet' target='_blank'>MetaMask</a><img src='images/metamask-logo.svg' class='inline-icon'> wallet",
+            "Buy $20 of USDC on <a href='#get-coinbase' target='_blank'>Coinbase</a><img src='images/coinbase-logo.png' class='inline-icon'>",
+            "Send the USDC to your MetaMask over <a href='#try-polygon' target='_blank'>Polygon network</a><img src='images/polygon-logo.png' class='inline-icon'>",
+            "Swap USDC for 1 MATIC using <a href='https://wallet.polygon.technology/gas-swap/' target='_blank'>Polygon's gas-free swap</a><img src='images/polygon-logo.png' class='inline-icon'>",
+            "Deposit $5 USDC into <a href='#save-with-aave' target='_blank'>Aave</a><img src='images/aave-logo.png' class='inline-icon'> to earn interest",
+            "Track your deposit using <a href='#track-portfolio' target='_blank'>Zapper.fi</a><img src='images/zapper-logo.png' class='inline-icon'>"
         ]
     },
     'must-knows' : {
@@ -61,7 +62,8 @@ let data = {
             "Never share your seed phrase or store them on your phone or computer. Write it down on paper!",
             "Only send ether to an ether address, bitcoin to a bitcoin addresses, etc",
             "However, you can send and receive ERC20 tokens with an Ethereum address since they are programmed on the Ethereum network",
-            "Ether (ETH) is the asset and Ethereum is the network"
+            "Ether (ETH) is the asset and Ethereum is the network",
+            "Now let's <a href='#first-thing' subject='first-thing'>try something</a><img src='images/first-logo.png' class='inline-icon'>"
         ]
     },
     'what-is-defi' : {
@@ -75,7 +77,8 @@ let data = {
             "Most of DeFi is built on the Ethereum blockchain",
             "No intermediaries or middle-men",
             "Available to anyone in the world with an internet connection",
-            "No permission necessary to use. 24/7 365."
+            "No permission necessary to use. 24/7 365.",
+            "There are some <a href='#must-knows' subject='must-knows'>things you should</a> know before starting"
         ]
     },
     'get-wallet' : {
@@ -298,7 +301,7 @@ let data = {
         list : []
     },
     'earn-on-hop' : {
-        title : 'Earn fees on Hop',
+        title : 'Earn on Hop',
         icon : 'images/hop-logo.png',
         descriptions : [
             "Hop is a bridge between chains like Ethereum, Polygon, and Optimism",
@@ -362,4 +365,5 @@ let data = {
 // lend/borrow nfts to earn yield
 // lens protocol
 // barnbridge
-//
+// livepeer staking
+// the graph (tenderize?)
