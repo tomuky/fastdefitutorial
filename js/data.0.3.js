@@ -44,7 +44,7 @@ let data = {
             "Buy $20 of USDC on <a href='#get-coinbase' subject='get-coinbase'>Coinbase</a><img src='images/coinbase-logo.png' class='inline-icon'>",
             "Send the USDC to your MetaMask over <a href='#try-polygon' subject='try-polygon'>Polygon network</a><img src='images/polygon-logo.png' class='inline-icon'>",
             "Deposit $5 USDC into <a href='#save-with-aave' subject='save-with-aave'>Aave</a><img src='images/aave-logo.png' class='inline-icon'> to earn interest",
-            "Track your deposit using <a href='#track-portfolio' subject='track-portfolio'>Zapper.fi</a><img src='images/zapper-logo.png' class='inline-icon'>"
+            "Track deposit using <a href='#track-portfolio' subject='track-portfolio'>Zapper.fi</a><img src='images/zapper-logo.png' class='inline-icon'>"
         ]
     },
     'must-knows' : {
@@ -371,3 +371,5 @@ let data = {
 // livepeer staking
 // the graph (tenderize?)
 // indexcoop MNYe
+// defillama.com
+// bullish case on tokens that actually do something
