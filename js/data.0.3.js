@@ -40,12 +40,11 @@ let data = {
         list : [],
         steps : [
             "Know the <a href='#must-knows' subject='must-knows'>must-knows</a><img src='images/important-icon.png' class='inline-icon'> of DeFi",
-            "Set up a <a href='#get-wallet' target='_blank'>MetaMask</a><img src='images/metamask-logo.svg' class='inline-icon'> wallet",
-            "Buy $20 of USDC on <a href='#get-coinbase' target='_blank'>Coinbase</a><img src='images/coinbase-logo.png' class='inline-icon'>",
-            "Send the USDC to your MetaMask over <a href='#try-polygon' target='_blank'>Polygon network</a><img src='images/polygon-logo.png' class='inline-icon'>",
-            "Swap USDC for 1 MATIC using <a href='https://wallet.polygon.technology/gas-swap/' target='_blank'>Polygon's gas-free swap</a><img src='images/polygon-logo.png' class='inline-icon'>",
-            "Deposit $5 USDC into <a href='#save-with-aave' target='_blank'>Aave</a><img src='images/aave-logo.png' class='inline-icon'> to earn interest",
-            "Track your deposit using <a href='#track-portfolio' target='_blank'>Zapper.fi</a><img src='images/zapper-logo.png' class='inline-icon'>"
+            "Set up a <a href='#get-wallet' subject='get-wallet'>MetaMask</a><img src='images/metamask-logo.svg' class='inline-icon'> wallet",
+            "Buy $20 of USDC on <a href='#get-coinbase' subject='get-coinbase'>Coinbase</a><img src='images/coinbase-logo.png' class='inline-icon'>",
+            "Send the USDC to your MetaMask over <a href='#try-polygon' subject='try-polygon'>Polygon network</a><img src='images/polygon-logo.png' class='inline-icon'>",
+            "Deposit $5 USDC into <a href='#save-with-aave' subject='save-with-aave'>Aave</a><img src='images/aave-logo.png' class='inline-icon'> to earn interest",
+            "Track your deposit using <a href='#track-portfolio' subject='track-portfolio'>Zapper.fi</a><img src='images/zapper-logo.png' class='inline-icon'>"
         ]
     },
     'must-knows' : {
@@ -89,7 +88,7 @@ let data = {
             "You'll want the app on your phone and the browser extension."
         ],
         steps : [
-            "Download <a href='https://metamask.io/download/' target='_blank'>MetaMask</a> on your phone",
+            "Download <a href='https://metamask.io/download/' target='_blank'>MetaMask</a><img src='images/metamask-logo.svg' class='inline-icon'> on your phone",
             "Choose Create a new wallet",
             "Follow on-screen instructions, <i>write down seed phrase on paper</i>",
             "Download <a href='https://metamask.io/download/' target='_blank'>MetaMask extension</a> in Chrome",
@@ -97,8 +96,9 @@ let data = {
             'To get your public address, touch/click the "0x000...0000" in MetaMask',
             "Go to <a href='https://etherscan.io/' target='_blank'>etherscan.io</a> or <a href='https://polygonscan.com/' target='_blank'>polygonscan.com</a> and paste in address to see it on a block explorer",
             "MetaMask is connected to Ethereum by default",
-            "To add new networks, head to <a href='https://zapper.fi/' target='_blank'>zapper.fi</a> and choose other networks in bottom left",
-            "Once a network is added, you can toggle between networks in MetaMask dropdown"
+            "To add new networks, head to <a href='https://zapper.fi/' target='_blank'>zapper.fi</a><img src='images/zapper-logo.png' class='inline-icon'> and choose other networks in top right",
+            "Once a network is added, you can toggle between networks in MetaMask dropdown",
+            "Next let's <a href='#get-coinbase' subject='get-coinbase'>get some USDC on Coinbase</a><img src='images/coinbase-logo.png' class='inline-icon'>"
         ],
         list : []
     },
@@ -109,9 +109,10 @@ let data = {
             "The most trusted and most widely used platform for buying crypto with your bank account"
         ],
         steps : [
-            "Sign up for a <a href='https://www.coinbase.com/join/davis_95' target='_blank'>Coinbase.com</a> account",
+            "Sign up for a <a href='https://www.coinbase.com/join/davis_95' target='_blank'>Coinbase.com</a><img src='images/coinbase-logo.png' class='inline-icon'> account",
             "Connect your checking account",
-            "<a href='https://www.coinbase.com/price/usdc' target='_blank'>Buy some USDC</a> (maybe $20 worth). USDC is a stablecoin, redeemable 1:1 for dollars."
+            "<a href='https://www.coinbase.com/price/usdc' target='_blank'>Buy some USDC</a> (maybe $20 worth). USDC is a stablecoin, redeemable 1:1 for dollars.",
+            "Next let's send <a href='#try-polygon' subject='try-polygon'>USDC to the Polygon network</a><img src='images/polygon-logo.png' class='inline-icon'>"
         ],
         list : []
     },
@@ -122,7 +123,7 @@ let data = {
             "Zapper.fi is the most popular way to track your DeFi portfolio."
         ],
         steps : [
-            "Go to <a href='https://zapper.fi/' target='_blank'>zapper.fi</a>",
+            "Go to <a href='https://zapper.fi/' target='_blank'>zapper.fi</a><img src='images/zapper-logo.png' class='inline-icon'>",
             "Click Connect Wallet and choose MetaMask",
             "Zapper.fi will read in all your balances and positions from the blockchain",
             "You can even perform some DeFi transactions all within their app"
@@ -138,11 +139,12 @@ let data = {
         ],
         steps : [
             "Your Polygon wallet address is the same as your Ethereum wallet address",
-            "After setting up Coinbase, buy some USDC (a stablecoin)",
+            "After setting up <a href='https://www.coinbase.com/join/davis_95' target='_blank'>Coinbase</a><img src='images/coinbase-logo.png' class='inline-icon'>, buy some USDC (a stablecoin)",
             "Once available, send USDC to your 0x00..00 address and <i>choose to use the Polygon network</i>",
             "View your address on <a href='https://polygonscan.com/' target='_blank'>polygonscan.com</a> to confirm it worked",
             "Select Polygon network in MetaMask network dropdown (if Polygon is not yet added to your MetaMask, go to <a href='https://zapper.fi/' target='_blank'>zapper.fi</a> and select Polygon in bottom left to have it automatically added to your MetaMask)",
-            "Go to <a href='https://wallet.polygon.technology/gas-swap' target='_blank'>Polygon's gas-free swap</a> to swap $1 USDC to 1 MATIC (enough to pay for many Polygon network txs)"
+            "Go to <a href='https://wallet.polygon.technology/gas-swap' target='_blank'>Polygon's gas-free swap</a> to swap $1 USDC to 1 MATIC (enough to pay for many Polygon network txs)",
+            "Next let's <a href='#save-with-aave' subject='save-with-aave'>deposit some USDC into Aave</a><img src='images/aave-logo.png' class='inline-icon'>"
         ],
         list : []
     },
@@ -161,7 +163,7 @@ let data = {
             "Type in amount to deposit",
             "Click Approve and confirm MetaMask prompt",
             "Click Supply and confirm MetaMask prompt",
-            "Done. Check <a href='https://zapper.fi/' target='_blank'>zapper.fi</a> to see your Aave deposit"
+            "Done. Check <a href='https://zapper.fi/' target='_blank'>zapper.fi</a><img src='images/zapper-logo.png' class='inline-icon'> to see your Aave deposit"
         ],
         list : []
     },
@@ -198,7 +200,7 @@ let data = {
             "We'll do USDC as Token 1 and ETH as Token 2",
             "Click to Approve tokens, confirm MetaMask prompt",
             "Click to Supply, click to Confirm Supply, confirm MetaMask prompt",
-            "Done. Check <a href='https://zapper.fi/' target='_blank'>zapper.fi</a> to see your Quickswap position",
+            "Done. Check <a href='https://zapper.fi/' target='_blank'>zapper.fi</a><img src='images/zapper-logo.png' class='inline-icon'> to see your Quickswap position",
             'You received "LP Tokens" that represent your deposit in that specific pool',
             "You automatically accrue fees simply by holding the tokens"
         ],
@@ -216,7 +218,8 @@ let data = {
             "Click Connect Wallet and choose MetaMask",
             "Enter amount of USDC you wish to deposit",
             "Click to Review deposit, confirm, confirm MetaMask prompt",
-            "Done. Draws are daily so check the Prizes tab tomorrow!"
+            "Done. Draws are daily so check the Prizes tab tomorrow!",
+            "Check <a href='https://zapper.fi/' target='_blank'>zapper.fi</a><img src='images/zapper-logo.png' class='inline-icon'> to see your Pooltogether position"
         ],
         list : []
     },
@@ -236,7 +239,7 @@ let data = {
             "Find it and click it, then click Invest",
             "You can deposit with just USDC, Balancer will split it up between the 3 assets for you",
             "Click Review and Approve any tokens needed approval, then click Invest",
-            "Done. Check <a href='https://zapper.fi/' target='_blank'>zapper.fi</a> to see your Balancer position"
+            "Done. Check <a href='https://zapper.fi/' target='_blank'>zapper.fi</a><img src='images/zapper-logo.png' class='inline-icon'> to see your Balancer position"
         ],
         list : []
     },
@@ -256,7 +259,7 @@ let data = {
             "Enter amount you wish to deposit, then click Mint and Save",
             "Click Approve Exact, confirm MetaMask prompt",
             "Click Mint and Save, click Send Transaction popup, then confirm MetaMask prompt",
-            "Done. Check <a href='https://zapper.fi/' target='_blank'>zapper.fi</a> to see your mStable deposit"
+            "Done. Check <a href='https://zapper.fi/' target='_blank'>zapper.fi</a><img src='images/zapper-logo.png' class='inline-icon'> to see your mStable deposit"
         ],
         list : []
     },
@@ -276,7 +279,7 @@ let data = {
             "Click Deposit & Stake in gauge (stake in gauge to earn additional rewards)",
             "There may be 4 MetaMask prompts to confirm: Approve, Deposit token, Approe, Deposit into Gauge",
             "Refresh the page to now see your Staked Share near the bottom",
-            "Done. Check <a href='https://zapper.fi/' target='_blank'>zapper.fi</a> to see your Curve position",
+            "Done. Check <a href='https://zapper.fi/' target='_blank'>zapper.fi</a><img src='images/zapper-logo.png' class='inline-icon'> to see your Curve position",
             "To withdraw, click on <a href='https://polygon.curve.fi/aave/withdraw' target='_blank'>Withdraw</a> on top menu, look for Unstake and then Withdraw (pay attention to Withdraw % to get all USDC back)"
         ],
         list : []
@@ -290,7 +293,7 @@ let data = {
         ],
         steps : [
             "Let's send some ETH from Polygon to Optimism (both are cheaper networks)",
-            "If you don't have ETH on Polygon yet, swap for some <a href='#swap-on-quickswap' target='_blank'>using Quickswap</a>",
+            "If you don't have ETH on Polygon yet, swap for some <a href='#swap-on-quickswap' subject='swap-on-quickswap>using Quickswap</a>",
             "Go to <a href='https://app.hop.exchange/#/send' target='_blank'>app.hop.exchange/#/send</a>",
             "Choose ETH to send, Polygon as From network, and Optism as To network",
             "Make sure you are currently connected to the Polygon network in MetaMask",
@@ -329,8 +332,8 @@ let data = {
         ],
         steps : [
             "Your Optimism wallet address is the same as your Ethereum wallet address",
-            "<a href='#bridge-with-hop' target='_blank'>Use the Hop bridge</a> to move some ETH to Optimism (ETH is used to pay for txs)",
-            "Add the Optimism network to MetaMask by going to <a href='https://zapper.fi/' target='_blank'>zapper.fi</a>, connect your wallet, and toggle to the Optimism network in top right",
+            "Use the <a href='#bridge-with-hop' subject='bridge-with-hop'>Hop Bridge</a><img src='images/hop-logo.png' class='inline-icon'> to move some ETH to Optimism (ETH is used to pay for txs)",
+            "Add the Optimism network to MetaMask by going to <a href='https://zapper.fi/' target='_blank'>zapper.fi</a><img src='images/zapper-logo.png' class='inline-icon'>, connect your wallet, and toggle to the Optimism network in top right",
             "You can use the block explorer <a href='https://optimistic.etherscan.io/' target='_blank'>optimistic.etherscan.io</a> to view your address and transactions",
             "Now you're ready to try things on Optimism"
         ],
@@ -345,7 +348,7 @@ let data = {
             "You buy the token of the team/outcome you're betting on. The prices of the teams/outcomes can be considered the odds ($0.54 = 54%). If that team wins, the token becomes redeemable for $1, the others go to $0. Example: bet $10 on a token that costs $0.50, you get 20 tokens, if that team wins, you redeem the 20 tokens for $20. Learn more about Overtime <a href='https://medium.com/@OvertimeMarkets.xyz/sports-fans-hold-onto-your-seats-the-excitement-of-sports-trading-is-coming-to-the-blockchain-e8ea9b174bd6' target='_blank'>here</a>."
         ],
         steps : [
-            "Make sure you're on the <a href='#try-optimism' target='_blank'>Optimism network<a>",
+            "Make sure you're on the <a href='#try-optimism' subject='try-optimism'>Optimism<a><img src='images/optimism-logo.png' class='inline-icon'> network",
             "Go to <a href='https://overtimemarkets.xyz/#/markets' target='_blank'>overtimemarkets.xyz/#/markets</a> to see available markets",
             "Click on Open Markets on right side to see availabale games",
             "Click on a game to see detail on betting options",
@@ -367,3 +370,4 @@ let data = {
 // barnbridge
 // livepeer staking
 // the graph (tenderize?)
+// indexcoop MNYe
