@@ -349,7 +349,7 @@ let data = {
         ],
         steps : [
             "Make sure you're on the <a href='#try-optimism' subject='try-optimism'>Optimism<a><img src='images/optimism-logo.png' class='inline-icon'> network",
-            "Go to <a href='https://overtimemarkets.xyz/#/markets' target='_blank'>overtimemarkets.xyz/#/markets</a> to see available markets",
+            "Go to <a href='https://overtimemarkets.xyz#/markets?referralId=0x5419c2900b238447848bfb16c6fab7c3c7143518' target='_blank'>overtimemarkets.xyz/#/markets</a> to see available markets",
             "Click on Open Markets on right side to see availabale games",
             "Click on a game to see detail on betting options",
             "Click on the USDC icon on top right to pay with USDC (swap using <a href='https://app.uniswap.org/#/swap?chain=optimism' target='_blank'>Uniswap</a> if you need some)",
