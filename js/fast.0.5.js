@@ -16,7 +16,8 @@ $(document).on('ready',function(){
     // unhide group if initial view is hidden in left pane
     if(!$('[subject="'+app.sel+'"]').is(':visible')) $('[subject="'+app.sel+'"]').parents('[group]').show();
     // handle menu group expand ui icon
-    $('[subject="'+app.sel+'"]').parents('[group]').find('.list-dropdown-logo').toggleClass('flip');
+    let group = $('[subject="'+app.sel+'"]').parents('[group]').attr('group');
+    $('#'+group).find('.list-dropdown-logo').toggleClass('flip');
     
     // clicking on left pane group shows/hides group within left pane
     $('.group-button').on('click',function(d){
@@ -71,10 +72,19 @@ $(document).on('ready',function(){
     if(!$(d.target).attr("subject")) return;
     let subject = $(d.target).attr("subject");
     app.sel = subject;
+
+    // load content
     app.switchView();
+
     window.location.hash = app.sel; // set hash in url to new subject 
-    $('.view-button').removeClass('left-pane-list-item-selected');
-    $('[subject="'+subject+'"]').addClass('left-pane-list-item-selected');
+    $('.view-button').removeClass('left-pane-list-item-selected'); // remove previous selections in left pane
+    $('[subject="'+subject+'"]').addClass('left-pane-list-item-selected'); // add new selection to left pane
+
+    if(!$('[subject="'+app.sel+'"]').is(':visible')) $('[subject="'+app.sel+'"]').parents('[group]').show(); // show group?
+    // handle menu group expand ui icon
+    let group = $('[subject="'+app.sel+'"]').parents('[group]').attr('group');
+    $('#'+group).find('.list-dropdown-logo').toggleClass('flip');
+
 });;
 
 let app = {

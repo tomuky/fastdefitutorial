@@ -328,11 +328,11 @@ let data = {
         icon : 'images/optimism-logo.png',
         descriptions : [
             "Optimism is a Layer 2 on top of Ethereum, inheriting Ethereum security.",
-            "It zips up transactions in bulk and uses something called optimistic proofs to prove to Ethereum they are correct."
+            "It zips up txs in bulk and uses optimistic proofs to prove to Ethereum they are correct."
         ],
         steps : [
-            "Your Optimism wallet address is the same as your Ethereum wallet address",
-            "Use the <a href='#bridge-with-hop' subject='bridge-with-hop'>Hop Bridge</a><img src='images/hop-logo.png' class='inline-icon'> to move some ETH to Optimism (ETH is used to pay for txs)",
+            "You need ETH to pay for txs, and your Optimism address is the same as your Ethereum address",
+            "To get on Optimism, you can either 1) buy ETH on <a href='#get-coinbase' subject='get-coinbase'>Coinbase</a><img src='images/coinbase-logo.png' class='inline-icon'>, withdraw to <a href='#try-polygon' subject='try-polygon'>Polygon</a><img src='images/polygon-logo.png' class='inline-icon'>, then use <a href='#bridge-with-hop' subject='bridge-with-hop'>Hop Bridge</a><img src='images/hop-logo.png' class='inline-icon'> to Optimism or 2) buy ETH on <a href='#get-cryptocom' subject='get-cryptocom'>Crypto.com</a><img src='images/cryptocom-logo.png' class='inline-icon'> and withdraw to Optimism",
             "Add the Optimism network to MetaMask by going to <a href='https://zapper.fi/' target='_blank'>zapper.fi</a><img src='images/zapper-logo.png' class='inline-icon'>, connect your wallet, and toggle to the Optimism network in top right",
             "You can use the block explorer <a href='https://optimistic.etherscan.io/' target='_blank'>optimistic.etherscan.io</a> to view your address and transactions",
             "Now you're ready to try things on Optimism"
@@ -359,6 +359,67 @@ let data = {
             "All set. Wait for the outcome and hopefully redeem your winnings. Good luck!"
         ],
         list : []
+    },
+    'get-cryptocom' : {
+        title : 'Get Crypto.com',
+        icon : 'images/cryptocom-logo.png',
+        descriptions : [
+            "You can buy ETH on Crypto.com and withdraw straight to the Optimism<img src='images/optimism-logo.png' class='inline-icon'> network",
+            "Buying ETH with your bank account <span style='color:red;font-style:bold;'>can take a few days</span> to clear your bank, but you save on fees"
+        ],
+        steps : [
+            "Download the <a href='https://crypto.com/us/app' target='_blank'><img src='images/cryptocom-logo.png' class='inline-icon'>Crypto.com app</a> on your phone and setup an account",
+            "Click on Accounts, click Fiat Wallet to set that up first",
+            "Go to Home, click Deposit, depsoit fiat from bank account, choose Link Bank Account",
+            "After linking account, choose amount of USD to deposit and click deposit (no fees)",
+            "May take up to 7 days for funds to clear your bank. You could wait until then before proceeding.",
+            "To buy ETH, click Home, then Buy, click to use your Fiat Wallet choose Ethereum, and Buy ETH",
+            "After funds clear your bank you can send from Crypto.com to your own wallet",
+            "Go to Accounts, click Crypto Wallet, then Ethereum",
+            "Click Transfer, Withdraw, External Wallet, click to Add Wallet Address to Withdrawal Whitelist",
+            "Important: Choose OP (Optimism) when selecting network",
+            "Paste in your ETH wallet address (may have to copy it from your MetaMask on your computer, then email it to your phone) and give it a nickname",
+            "Crypto.com may prompt to enable 2FA authentication. Highly recommended you do this.",
+            "After whitelisting this OP address, click to Withdraw ETH, enter amount, then click Withdraw, Confirm."
+        ],
+        list : []
+    },
+    'check-gas' : {
+        title : 'Check Ethereum gas',
+        icon : 'images/gas-logo.png',
+        descriptions : [
+            "Gas prices to transact on Ethereum can sometimes be too high to try things",
+            "Networks like <a href='#try-optimism' subject='try-optimism'>Optimism<a><img src='images/optimism-logo.png' class='inline-icon'> help scale Ethereum to more people with cheaper costs",
+            "Ethereum mainnet is becoming the home for large financial transactions"
+        ],
+        steps : [
+            "Go to <a href='https://www.blocknative.com/gas-estimator' target='_blank'>blocknative.com/gas-estimator</a>",
+            "The important number is the Base Fee near the bottom of the graphic",
+            "If Base Fee > 50 I would wait until gas is lower before transacting on Ethereum",
+            "To easily see gas levels, click Download the Extension"
+        ],
+        list : []
+    },
+    'get-ens' : {
+        title : 'Get .eth name',
+        icon : 'images/ens-logo.png',
+        descriptions : [
+            "Register a human readable address to map to your ugly long wallet address",
+            "your .eth name is perceived as your username for web3",
+            "Consider privacy when choosing a name"
+        ],
+        steps : [
+            "<a href='#check-gas' subject='check-gas'>Check gas<a><img src='images/gas-logo.png' class='inline-icon'> to make sure it's not too high",
+            "Go to <a href='https://app.ens.domains/' target='_blank'>app.ens.domains</a> and search for a name you'd like to claim",
+            "If available, choose number of years, then click Request to Register",
+            "Confirm MetaMask tx, then it makes you wait 1 minute",
+            "Once ready, click to confirm to register your name",
+            "After claiming, you need to set the Reverse Record of your address so the blockchain knows the .eth name goes to your address",
+            "On the My Account page, expand Primary ENS Name section, choose your new name in dropdown and confirm",
+            "To learn more about Ethereum Name Service (ENS) go <a href='https://ens.domains/' target='_blank'>here</a>",
+            "Another handy tool to explore names is <a href='https://ens.tools/domains' target='_blank'>ens.tools</a><img src='images/ens-tools-logo.png' class='inline-icon'>"
+        ],
+        list : []
     }
 }
 
@@ -373,3 +434,5 @@ let data = {
 // indexcoop MNYe
 // defillama.com
 // bullish case on tokens that actually do something
+// get a .eth name
+// crypto.com eth onramp to optimism
