@@ -405,7 +405,7 @@ let data = {
         icon : 'images/ens-logo.png',
         descriptions : [
             "Register a human readable address to map to your ugly long wallet address",
-            "your .eth name is perceived as your username for web3",
+            "Your .eth name is perceived as your username for web3",
             "Consider privacy when choosing a name"
         ],
         steps : [
