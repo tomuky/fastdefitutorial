@@ -57,9 +57,9 @@ let data = {
         list : [
             "Always try things with small amounts of money before using larger amounts",
             "You need ether (ETH) to pay for gas to transact on the Ethereum network",
-            "Make sure network gas prices aren't too high befor trying things, which could negate any positive yield",
+            "Be aware that transactions on Ethereum can be expensive when the network is busy, so trying things on Polygon can be more economical",
             "Never share your seed phrase or store them on your phone or computer. Write it down on paper!",
-            "Only send ether to an ether address, bitcoin to a bitcoin addresses, etc",
+            "Only send ether to an Ethereum address, bitcoin to a Bitcoin addresses, etc",
             "However, you can send and receive ERC20 tokens with an Ethereum address since they are programmed on the Ethereum network",
             "Ether (ETH) is the asset and Ethereum is the network",
             "Now let's <a href='#first-thing' subject='first-thing'>try something</a><img src='images/first-logo.png' class='inline-icon'>"
@@ -77,7 +77,7 @@ let data = {
             "No intermediaries or middle-men",
             "Available to anyone in the world with an internet connection",
             "No permission necessary to use. 24/7 365.",
-            "There are some <a href='#must-knows' subject='must-knows'>things you should</a> know before starting"
+            "There are some things you <a href='#must-knows' subject='must-knows'>should know</a> before starting"
         ]
     },
     'get-wallet' : {
@@ -91,7 +91,7 @@ let data = {
             "Download <a href='https://metamask.io/download/' target='_blank'>MetaMask</a><img src='images/metamask-logo.svg' class='inline-icon'> on your phone",
             "Choose Create a new wallet",
             "Follow on-screen instructions, <i>write down seed phrase on paper</i>",
-            "Download <a href='https://metamask.io/download/' target='_blank'>MetaMask extension</a> in Chrome",
+            "Download <a href='https://metamask.io/download/' target='_blank'>MetaMask extension</a> in Chrome browser",
             "Choose restore wallet from seed phrase (the one you wrote down)",
             'To get your public address, touch/click the "0x000...0000" in MetaMask',
             "Go to <a href='https://etherscan.io/' target='_blank'>etherscan.io</a> or <a href='https://polygonscan.com/' target='_blank'>polygonscan.com</a> and paste in address to see it on a block explorer",
@@ -434,5 +434,3 @@ let data = {
 // indexcoop MNYe
 // defillama.com
 // bullish case on tokens that actually do something
-// get a .eth name
-// crypto.com eth onramp to optimism
