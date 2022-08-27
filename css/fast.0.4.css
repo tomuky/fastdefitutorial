@@ -284,7 +284,7 @@ img.theme-toggle-button{
     div.mobile-header-area.light{
         background-color: white;
     }
-    div.mobile-header-area:dark{
+    div.mobile-header-area.dark{
         background-color: rgb(30,30,30);
     }
     div.mobile-header-left{

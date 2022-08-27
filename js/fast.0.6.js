@@ -133,7 +133,7 @@ let app = {
         }
 
         // make sure right theme styling is applied to new elements
-        this.switchTheme();
+        this.applyTheme();
     },
 
     toLink: function(url,name){
@@ -145,6 +145,14 @@ let app = {
         if(!this.mode) this.mode = 'dark'; // default
         else if(this.mode=='dark') this.mode = 'light';
         else if(this.mode=='light') this.mode = 'dark';
+
+        this.applyTheme();
+
+    },
+    
+    applyTheme: function(){
+
+        if(!this.mode) this.mode = 'dark'; // default
 
         $('body').removeClass('light dark').addClass(this.mode);
         $('.left-pane').removeClass('light dark').addClass(this.mode);
