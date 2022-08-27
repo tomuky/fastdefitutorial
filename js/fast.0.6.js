@@ -85,6 +85,8 @@ $(document).on('ready',function(){
     let group = $('[subject="'+app.sel+'"]').parents('[group]').attr('group');
     $('#'+group).find('.list-dropdown-logo').toggleClass('flip');
 
+}).on('click','.theme-toggle-button',function(){
+    app.switchTheme();
 });;
 
 let app = {
@@ -129,11 +131,32 @@ let app = {
                 $('#steps-here').append('<div class="item"><img src="images/numbers/'+number+'.png" class="item-icon"><span>'+text+'</span></div>')
             }
         }
+
+        // make sure right theme styling is applied to new elements
+        this.switchTheme();
     },
 
     toLink: function(url,name){
         return "<a href='"+url+"' target='_new'>"+name+"</a>";
+    },
+    
+    switchTheme: function(){
+
+        if(!this.mode) this.mode = 'dark'; // default
+        else if(this.mode=='dark') this.mode = 'light';
+        else if(this.mode=='light') this.mode = 'dark';
+
+        $('body').removeClass('light dark').addClass(this.mode);
+        $('.left-pane').removeClass('light dark').addClass(this.mode);
+        $('a').removeClass('light dark').addClass(this.mode);
+        $('.left-pane-list-item').removeClass('light dark').addClass(this.mode);
+        $('.item-icon').removeClass('light dark').addClass(this.mode);
+        $('.list-dropdown-logo').removeClass('light dark').addClass(this.mode);
+        $('.mobile-header-area').removeClass('light dark').addClass(this.mode);
+        $('.header-icon').removeClass('light dark').addClass(this.mode);
+        
+        $('.theme-toggle-button').hide();
+        $('.theme-toggle-button.'+this.mode).show();
+
     }
-    
-    
 };
