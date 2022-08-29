@@ -162,6 +162,7 @@ let app = {
         $('.list-dropdown-logo').removeClass('light dark').addClass(this.mode);
         $('.mobile-header-area').removeClass('light dark').addClass(this.mode);
         $('.header-icon').removeClass('light dark').addClass(this.mode);
+        $('.new-tab-icon').removeClass('light dark').addClass(this.mode);
         
         $('.theme-toggle-button').hide();
         $('.theme-toggle-button.'+this.mode).show();
