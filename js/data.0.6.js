@@ -342,6 +342,7 @@ let data = {
     'bet-on-sports' : {
         title : 'Bet on sports',
         icon : 'images/overtime-logo.png',
+        inverticon : true,
         descriptions : [
             "Overtime is a decentralised on-chain sports betting platform",
             "It is sports betting without the hassles and restrictions of traditional platforms",
@@ -434,3 +435,5 @@ let data = {
 // indexcoop MNYe
 // defillama.com
 // bullish case on tokens that actually do something
+// revoke.cash revoke permissions, etherscan method
+// compound on ethereum

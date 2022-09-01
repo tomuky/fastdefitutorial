@@ -106,6 +106,9 @@ let app = {
 
         // set icon of piece
         $('#icon-here').attr('src',data[this.sel].icon);
+        // apply class to invert icon if applicable (too dark on dark theme)
+        $('#icon-here').removeClass('dark'); // remove this class if it's already there
+        if(data[this.sel].inverticon) $('#icon-here').addClass('dark'); // add inverting css
 
         // set description(s) of piece, if any
         $('#description-here').html('');

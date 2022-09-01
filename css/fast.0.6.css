@@ -180,7 +180,9 @@ img.list-dropdown-logo.dark{
 img.inline-icon.dark{
     filter: invert(100%);
 }
-
+img.dark{
+    filter: invert(100%);
+}
 
 
 /* main pane */
