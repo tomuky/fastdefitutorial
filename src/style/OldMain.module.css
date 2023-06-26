@@ -1,0 +1,35 @@
+html, body, #app, #app>div {
+    height: 100%
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
+div.main_pane{
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+div.main_pane.dark{
+    color: rgb(240, 240, 240);
+    background-color: rgb(30, 30, 30);
+}
+div.viewer{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width:450px){
+    div.main_pane{
+        padding: 20px;
+        display: block;
+        z-index: 2;
+    }
+}

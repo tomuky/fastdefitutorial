@@ -1,0 +1,39 @@
+.layout {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    color: rgb(240, 240, 240);
+    background-color: rgb(30, 30, 30);
+}
+.main{
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+@media screen and (max-width:450px){
+    .main{
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width:800px){
+    .main{
+        margin-top: 57px;
+    }
+}
+.viewer{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    overflow-y: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.viewer::-webkit-scrollbar {
+    display: none;
+}

@@ -1,0 +1,68 @@
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+h1 span{
+    font-size: 50px;
+}
+h1 img{
+    height: 50px;
+    width: 50px;
+    margin-right: 14px;
+}
+@media screen and (max-width:600px){
+    h1 span{
+        font-size: 26px;
+    }
+    h1 img{
+        width: 28px;
+        height: 28px;
+    }
+}
+h1 img.invert{
+    filter: invert(100%);
+}
+.description{
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: underline;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+}
+.inline_icon{
+    height: 17px;
+    width: 17px;
+    vertical-align: middle;
+    margin-left: 2px;
+}
+.steps{
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    /* min-height: 36px; */
+    display: flex;
+    padding: 10px 20px;
+    line-height: 20px;
+    align-items: flex-start;
+}
+.bullet{
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+    filter: invert(100%);
+}
+.bullet_indent{
+    height: 14px;
+    width: 14px;
+    margin-right: 8px;
+    filter: invert(100%);
+    margin-left: 20px;
+    margin-top: 3px;
+}

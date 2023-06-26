@@ -1,0 +1,22 @@
+{
+    "polygon": [
+        {"to": "try-polygon", "title": "Getting Started", "icon": "polygon-logo.png"},
+        {"to": "save-with-aave", "title": "Save with Aave", "icon": "aave-logo.png"},
+        {"to": "swap-on-quickswap", "title": "Swap on Quickswap", "icon": "quickswap-logo.png"},
+        {"to": "earn-on-balancer", "title": "Eearn on Balancer", "icon": "balancer-logo.png"},
+        {"to": "play-no-loss-lottery", "title": "Play a no-loss lottery", "icon": "pooltogether-logo.png"},
+        {"to": "bridge-with-hop", "title": "Bridge with Hop", "icon": "hop-logo.png"},
+        {"to": "earn-on-hop", "title": "Eearn on Hop", "icon": "hop-logo.png"}
+    ],
+    "optimism": [
+        {"to": "try-optimism", "title": "Getting started", "icon": "optimism-logo.png"},
+        {"to": "swap-on-uniswap", "title": "Swap on Uniswap", "icon": "uniswap-logo.png"},
+        {"to": "bet-with-overtime", "title": "Bet on sports", "icon": "overtime-logo.png"},
+        {"to": "dca-with-mean", "title": "DCA with Mean", "icon": "mean-logo.png"},
+        {"to": "stake-with-rocketpool", "title": "Stake with Rocketpool", "icon": "rocketpool-logo.png"}
+    ],
+    "ethereum": [
+        {"to": "try-ethereum", "title": "Getting started", "icon": "ethereum-logo.png"},
+        {"to": "get-ens", "title": "Get .eth name", "icon": "ens-logo.png"}
+    ]
+}
