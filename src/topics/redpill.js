@@ -3,10 +3,14 @@ import TopicTitle from '../components/TopicTitle';
 import TopicBody from '../components/TopicBody';
 import TopicDescription from '../components/TopicDescription';
 import ExternalLink from '../components/ExternalLink';
+import { Helmet } from 'react-helmet';
 
 const Redpill = () => {
     return (
         <>
+            <Helmet>
+                <title>Red pill</title>
+            </Helmet>
             <TopicTitle title="Take the red pill" icon="redpill-icon.png"/>
             <TopicDescription>
                 <p>Material to help you go down the rabbit hole</p>
