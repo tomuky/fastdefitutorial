@@ -11,7 +11,8 @@ const Welcome = () => {
                 <p>This is Fast DeFi Tutorial.</p>
                 <p>DeFi is finance using the blockchain.</p>
                 <p>Easy. Straight to the point. Step by step.</p>
-                <p>Questions? Reach out on <ExternalLink title='Twitter' to='https://twitter.com/tomuky' icon='twitter-logo.png'/></p>
+                <p>Questions? You can reach out on <ExternalLink title='Twitter' to='https://twitter.com/tomuky' icon='twitter-logo.png'/></p>
+                <p>Or email at <ExternalLink title='tom@fastdefitutorial.com' to='mailto:tom@fastdefitutorial.com' icon='email-icon.png'/></p>
                 <p><InternalLink title='Start here' to='/first' icon='first-logo.png'/></p>
             </div>
         </>
