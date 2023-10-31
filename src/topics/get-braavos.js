@@ -20,7 +20,7 @@ const GetBraavos = () => {
                     <Step n='3'>Choose Starknet Mainnet Alpha as your network</Step>
                     <Step n='4'>Deposit some ETH, so let's use <InternalLink title='Orbiter' to='/bridge-with-orbiter' icon='orbiter-logo.png'/> to bridge</Step>
                     <Step n='5'>After depositing some ETH to Braavos, click the button in Braavos to finish setting up your new account</Step>
-                    <Step n='6'>Now you're ready to try stuff, like swapping on <InternalLink to='/swap-on-avnu' title='AVNU' icon='avnu-logo.png'/></Step>
+                    <Step n='6'>Now you're ready to try stuff, like swapping on <InternalLink to='/swap-on-avnu' title='AVNU' icon='avnu-logo.png'/> or earning fees on <InternalLink to='/earn-on-jediswap' title='JediSwap' icon='jediswap-logo.png'/></Step>
                 </div>
             </div>
         </>

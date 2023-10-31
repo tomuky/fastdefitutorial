@@ -23,6 +23,7 @@
         {"to": "try-starknet", "title": "Getting started", "icon": "starknet-logo.png"},
         {"to": "get-braavos", "title": "Get Braavos Wallet", "icon": "braavos-logo.png"},
         {"to": "bridge-with-orbiter", "title": "Bridge with Orbiter", "icon": "orbiter-logo.png"},
-        {"to": "swap-on-avnu", "title": "Swap on AVNU", "icon": "avnu-logo.png"}
+        {"to": "swap-on-avnu", "title": "Swap on AVNU", "icon": "avnu-logo.png"},
+        {"to": "earn-on-jediswap", "title": "Earn on JediSwap", "icon": "jediswap-logo.png"}
     ]
 }
