@@ -27,6 +27,7 @@ const NavigationList = (props) => {
             <NavigationGroup group='polygon' title='Try Polygon' icon='polygon-logo.png'/>
             <NavigationGroup group='optimism' title='Try Optimism' icon='optimism-logo.png'/>
             <NavigationGroup group='ethereum' title='Try Ethereum' icon='ethereum-logo.png'/>
+            <NavigationGroup group='starknet' title='Try Starknet' icon='starknet-logo.png'/>
 
             <div className={classes.left_pane_divider}/>
 

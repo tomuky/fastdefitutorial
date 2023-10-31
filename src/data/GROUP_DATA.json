@@ -18,5 +18,11 @@
     "ethereum": [
         {"to": "try-ethereum", "title": "Getting started", "icon": "ethereum-logo.png"},
         {"to": "get-ens", "title": "Get .eth name", "icon": "ens-logo.png"}
+    ],
+    "starknet": [
+        {"to": "try-starknet", "title": "Getting started", "icon": "starknet-logo.png"},
+        {"to": "get-braavos", "title": "Get Braavos Wallet", "icon": "braavos-logo.png"},
+        {"to": "bridge-with-orbiter", "title": "Bridge with Orbiter", "icon": "orbiter-logo.png"},
+        {"to": "swap-on-avnu", "title": "Swap on AVNU", "icon": "avnu-logo.png"}
     ]
 }
