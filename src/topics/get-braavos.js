@@ -9,13 +9,13 @@ const GetBraavos = () => {
         <>
             <TopicTitle title="Get Braavos" icon="braavos-logo.png"/>
             <div className={classes.description}>
-                <p>Braavos is one of the best wallets for using Starknet</p>
+                <p>One of the best wallets for using Starknet</p>
                 <p>Use your same Starknet address in both Chrome extension and mobile app</p>
             </div>
             <div className={classes.body}>
                 <div className={classes.steps}>
                     <Step n='1'>Go to <ExternalLink title="braavos.app" to="https://braavos.app/" icon="braavos-logo.png"/>, click Download, and choose your browser</Step>
-                    <Step n='2'>Click on the Braavos extention after downloading, choose Create a New Wallet, follow steps</Step>
+                    <Step n='2'>Click on the Braavos extension after downloading, choose Create a New Wallet, follow steps</Step>
                     <Step type='indent'>Be sure to write down your seed phrase on paper and keep it in a safe place</Step>
                     <Step n='3'>Choose Starknet Mainnet Alpha as your network</Step>
                     <Step n='4'>Deposit some ETH, so let's use <InternalLink title='Orbiter' to='/bridge-with-orbiter' icon='orbiter-logo.png'/> to bridge</Step>
