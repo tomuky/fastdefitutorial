@@ -10,7 +10,7 @@ h1 span{
 h1 img{
     height: 50px;
     width: 50px;
-    margin-right: 14px;
+    margin-right: 20px;
 }
 @media screen and (max-width:600px){
     h1 span{
@@ -35,11 +35,18 @@ a{
     display: flex;
     flex-direction: column;
 }
+.inline_icon_external_link{
+    height: 17px;
+    width: 17px;
+    vertical-align: middle;
+    margin-left: 2px;
+}
 .inline_icon{
     height: 17px;
     width: 17px;
     vertical-align: middle;
     margin-left: 2px;
+    margin-right: 4px;
 }
 .steps{
     display: flex;

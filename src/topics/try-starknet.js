@@ -1,5 +1,4 @@
 import InternalLink from '../components/InternalLink';
-import ExternalLink from '../components/ExternalLink';
 import Step from '../components/Step';
 import TopicTitle from '../components/TopicTitle';
 import TopicBody from '../components/TopicBody';

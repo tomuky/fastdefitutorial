@@ -26,10 +26,16 @@ const NavigationList = (props) => {
 
             <NavigationGroup group='polygon' title='Try Polygon' icon='polygon-logo.png'/>
             <NavigationGroup group='optimism' title='Try Optimism' icon='optimism-logo.png'/>
+            <NavigationGroup group='arbitrum' title='Try Arbitrum' icon='arbitrum-logo.png'/>
             <NavigationGroup group='ethereum' title='Try Ethereum' icon='ethereum-logo.png'/>
             <NavigationGroup group='starknet' title='Try Starknet' icon='starknet-logo.png'/>
 
             <div className={classes.left_pane_divider}/>
+
+            {/* <NavigationLink to='data-on-defillama' title='Data on DeFi Llama' icon='defillama-logo.png'/> */}
+            {/* <NavigationLink to='swap-on-defillama' title='Swap on DeFi Llama' icon='defillama-logo.png'/> */}
+
+            {/* <div className={classes.left_pane_divider}/> */}
 
             <NavigationLink to='redpill' title='Take the red pill' icon='redpill-icon.png'/>
 

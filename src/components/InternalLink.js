@@ -7,7 +7,7 @@ const InternalLink = (props) => {
             <Link to={props.to}>
                 {props.title}
             </Link>
-            <img alt='link icon' src={require(`../images/${props.icon}`)} className={classes.inline_icon}/>
+            {props.icon && <img alt='link icon' src={require(`../images/${props.icon}`)} className={classes.inline_icon}/>}
         </>
     )
 }
