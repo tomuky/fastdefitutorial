@@ -43,6 +43,7 @@ const NavigationList = (props) => {
 
             <NavigationLinkExternal to='https://twitter.com/tomuky' title='Follow @tomuky' icon='twitter-logo.png'/>
             <NavigationLinkExternal to='mailto:tom@fastdefitutorial.com' title='Email @tomuky' icon='email-icon.png'/>
+            <NavigationLinkExternal to='https://github.com/tomuky/fastdefitutorial' title='GitHub Repo' icon='github-mark-white.png'/>
 
         </div>
     )
